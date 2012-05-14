@@ -1,0 +1,109 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:ISessionStorageContainer.cs" caret="64" fromTop="1" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:NhQueryService.cs" caret="150" fromTop="4" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:NhRepository.cs" caret="189" fromTop="6" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:NhUnitOfWork.cs" caret="97" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:OfferRepository.cs" caret="109" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:ProductRepository.cs" caret="94" fromTop="1" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:SessionFactory.cs" caret="1324" fromTop="48" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:SessionStorageFactory.cs" caret="70" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/f:ThreadSessionStorageContainer.cs" caret="552" fromTop="17" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:TestNHConfigurator.cs" caret="259" fromTop="8" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:ActionResultExtensions.cs" caret="665" fromTop="12" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:InMemoryClientStorage.cs" caret="480" fromTop="15" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/f:DomainEventHandlerRegistery.cs" caret="332" fromTop="8" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/f:CommandHandlerRegistry.cs" caret="118" fromTop="3" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="1950" fromTop="12" />
+      <File id="E57C5FED-61A0-4357-8308-ABEA91CC9E6D/d:View/f:BasketDetailView.cs" caret="143" fromTop="4" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="3383" fromTop="17" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1557" fromTop="20" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="952" fromTop="19" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketDetailView.hbm.xml" caret="199" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="394" fromTop="9" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="449" fromTop="10" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Product.hbm.xml" caret="448" fromTop="12" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="149" fromTop="1" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Handlers/f:ApplyOfferToBasketCommandHandler.cs" caret="179" fromTop="0" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:Basket.cs" caret="3422" fromTop="13" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/f:Money.cs" caret="433" fromTop="19" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1654" fromTop="9" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="2521" fromTop="16" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Handlers/f:RemoveOfferFromBasketCommandHandler.cs" caret="349" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="2553" fromTop="15" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="3353" fromTop="15" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="2149" fromTop="31" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1496" fromTop="16" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="194" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="194" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="193" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Product.hbm.xml" caret="195" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketDetailView.hbm.xml" caret="199" fromTop="2" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="389" fromTop="10" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="952" fromTop="19" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="394" fromTop="9" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="550" fromTop="13" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="730" fromTop="17" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="629" fromTop="14" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="449" fromTop="10" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:Product.hbm.xml" caret="448" fromTop="12" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Api/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="149" fromTop="1" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1143" fromTop="12" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="913" fromTop="4" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1672" fromTop="11" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:Basket.cs" caret="4131" fromTop="14" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="472" fromTop="0" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="2365" fromTop="33" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="2398" fromTop="29" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="2269" fromTop="29" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/f:Money.cs" caret="433" fromTop="19" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1654" fromTop="11" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1888" fromTop="27" />
+      <File id="9CAD1EB3-6F4A-4261-8967-ACC17152194D/d:Model/d:Baskets/f:BasketVoucher.cs" caret="1654" fromTop="9" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="credit_card_payment_gateway" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="OrderDetailsRequiredForCreditCardPayment" priority="0" />
+      <Item value="payment_details" priority="0" />
+      <Item value="decimal" priority="0" />
+      <Item value="HttpPost" priority="0" />
+      <Item value="JsonResult`0" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="basket" priority="0" />
+      <Item value="if" priority="1" />
+      <Item value="discount" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="_value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Agathas.Storefront.Sales.Model.Baskets.Basket">
+      <Item value="has_had_vouchers_applied`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Agathas.Storefront.Sales.Model.Baskets.BasketVoucher">
+      <Item value="is_applicable`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

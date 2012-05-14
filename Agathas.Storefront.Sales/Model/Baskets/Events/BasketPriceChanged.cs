@@ -1,0 +1,17 @@
+﻿using System;
+using Agathas.Storefront.Infrastructure;
+
+namespace Agathas.Storefront.Sales.Model.Baskets.Events
+{
+    public class BasketPriceChanged : IDomainEvent
+    {
+        public BasketPriceChanged(Guid basket_id, Money cost_of_basket)
+        {
+            this.basket_id = basket_id;
+            CostOfBasket = cost_of_basket;
+        }
+
+        public Guid basket_id { get; private set; }
+        public Money CostOfBasket { get; private set; }
+    }
+}

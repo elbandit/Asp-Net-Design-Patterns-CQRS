@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="Agathas.Storefront.Ui.Web.Views.View"
+        assembly="Agathas.Storefront.Ui.Web.Views">
+
+  <class name="BasketDetailView" table="BasketView" lazy="false" >
+
+    <id name="id" column="BasketId" type="Guid">
+    </id>
+    
+    <property column="AmounToPay" name="amount_to_pay"/>
+    <property column="Message" name="message"/>
+
+  </class>
+
+</hibernate-mapping>
