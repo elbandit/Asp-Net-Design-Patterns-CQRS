@@ -36,9 +36,14 @@ namespace Agathas.Storefront.Sales.Model.Baskets
             get { return _basket_id; }
         }
 
-        public bool is_applicable(Basket basket)
+        public bool can_be_applied_to(Basket basket)
         {
-            return basket.items_total.is_greater_than(_threshold) && !basket.has_had_vouchers_applied() ;
+            return !basket.has_had_vouchers_applied(); // && not_out_of_date
+        }
+
+        public bool meets_criteria_for_discount(Basket basket)
+        {
+            return basket.items_total.is_greater_than(_threshold);
         }
 
         public void determine_why_not_applicable_for(Basket basket)
@@ -51,11 +56,11 @@ namespace Agathas.Storefront.Sales.Model.Baskets
             }
         }
         
-        private Money calculate_discount_for(Basket basket)
+        public Money calculate_discount_for(Basket basket)
         {
             var discount = new Money();
 
-            if (this.is_applicable(basket))
+            if (this.meets_criteria_for_discount(basket))
             {
                 discount = discount.add(_discount);                
             }
@@ -65,15 +70,6 @@ namespace Agathas.Storefront.Sales.Model.Baskets
             }
 
             return discount;
-        }
-
-        public void apply_to(Basket basket)
-        {
-            var discount = calculate_discount_for(basket);
-            if(!discount.is_zero)
-                basket.apply_discount_value_of(discount);
-
-            return;                        
-        }
+        }        
     }
 }

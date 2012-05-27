@@ -8,11 +8,7 @@
     <id name="_id" access="field" column="BasketId" type="Guid">
       
     </id>
-
-	  <component class="Agathas.Storefront.Sales.Model.Money" access="field" name="_discount">
-		  <property access="field" name="_value" column="Price"/>
-	  </component>
-
+	  
 	  <component class="Agathas.Storefront.Sales.Model.Baskets.BasketVoucher" access="field" name="_basket_voucher">		  		  
 		  <property access="field" name="_voucher_code" column="VoucherCode"/>		  
 		  <component class="Agathas.Storefront.Sales.Model.Money" access="field" name="_discount">

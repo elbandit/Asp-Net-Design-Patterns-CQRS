@@ -10,8 +10,7 @@ namespace Agathas.Storefront.Sales.Model.Baskets
     public class Basket 
     {
         private IList<BasketItem> _items;
-        private Guid _id;
-        private Money _discount;
+        private Guid _id;        
         private BasketVoucher _basket_voucher;
         
         private Basket()
@@ -21,8 +20,7 @@ namespace Agathas.Storefront.Sales.Model.Baskets
         public Basket(Guid id)
         {
             _id = id;
-            _items = new List<BasketItem>();
-            _discount = new Money();
+            _items = new List<BasketItem>();            
 
             DomainEvents.raise(new BasketCreated(this._id, amount_to_pay()));
         }
@@ -56,7 +54,7 @@ namespace Agathas.Storefront.Sales.Model.Baskets
             else
                 _items.Add(BasketItemFactory.create_item_for(product));
 
-            recalculate_discount();
+            DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
         }
 
         private BasketItem get_item_for(Product product)
@@ -85,7 +83,7 @@ namespace Agathas.Storefront.Sales.Model.Baskets
             {
                 _items.Remove(get_item_for(product_id));
 
-                recalculate_discount();
+                DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
             }
             
         }
@@ -103,45 +101,40 @@ namespace Agathas.Storefront.Sales.Model.Baskets
                 else
                     get_item_for(product).change_item_quantity_to(quantity);
 
-                recalculate_discount();
+                DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
             }
         }
 
-        private void recalculate_discount()
-        {
-            if (_basket_voucher != null)
-                _basket_voucher.apply_to(this);
-        }
-
-        public Money calculate_cost_with_discount_of(Money discount)
-        {
-            // TODO: Check for null values and invalid data
+       
+        private Money calculate_cost_with_discount_of(Money discount)
+        {            
             return items_total.minus(discount);
         }
-
-        
-        public void apply_discount_value_of(Money money)
+                
+        public Money amount_to_pay()
         {
-            // TODO: Check for null values and invalid data
-            // Invariant: Can't apply more discount that total of items 
-            _discount = money;
-            
-            DomainEvents.raise(new BasketPriceChanged(this._id , amount_to_pay()));
+            Money _discount = caclulate_basket_discount();
+
+            return calculate_cost_with_discount_of(_discount);
         }
 
-        public Money amount_to_pay()
-        {                        
-            return calculate_cost_with_discount_of(_discount);
-        }         
+        private Money caclulate_basket_discount()
+        {
+            Money _discount = new Money();
+            if (_basket_voucher != null)
+                _discount = _basket_voucher.calculate_discount_for(this);            
+            
+            return _discount;
+        }
 
         public void apply(BasketVoucher voucher)
         {
-            voucher.apply_to(this);
-
-            if (voucher.is_applicable(this))
+            if (voucher.can_be_applied_to(this))
             {
                 this._basket_voucher = voucher;
-            }
+                
+                DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
+            }           
         }
 
         public bool contains_product(Func<BasketItem, bool> func)
@@ -152,6 +145,13 @@ namespace Agathas.Storefront.Sales.Model.Baskets
         public bool has_had_vouchers_applied()
         {
             return this._basket_voucher != null;
+        }
+
+        public void remove_offer_voucher()
+        {
+            this._basket_voucher = null;
+
+            DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
         }
     }    
 }

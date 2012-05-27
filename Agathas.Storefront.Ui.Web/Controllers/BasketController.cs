@@ -104,11 +104,11 @@ namespace Agathas.Storefront.Ui.Web.Controllers
         [HttpPost]
         public ActionResult RemoveVoucher(string voucher_code)
         {
-            var apply_voucher_to_basket = new RemoveOfferFromBasketCommand(get_basket_id(), voucher_code);
+            var remove_voucher_from_basket = new RemoveOfferFromBasketCommand(get_basket_id(), voucher_code);
 
             handle_domain_exception(() =>
             {
-                _application.action_request_to(apply_voucher_to_basket);
+                _application.action_request_to(remove_voucher_from_basket);
             });
 
             return Redirect("Index");  

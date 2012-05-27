@@ -109,7 +109,7 @@ namespace Agathas.Storefront.Specs.Uat.Features
         public virtual void ApplyAPromotionalVoucherToAValidBasket()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Apply a promotional voucher to a valid basket", ((string[])(null)));
-#line 16
+#line 17
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
@@ -120,16 +120,16 @@ this.FeatureBackground();
                         "1"});
             table3.AddRow(new string[] {
                         "2"});
-#line 17
+#line 18
  testRunner.Given("I have added the following items to my basket", ((string)(null)), table3);
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table4.AddRow(new string[] {
                         "XXX-XXX"});
-#line 21
+#line 22
  testRunner.When("I apply the promotional voucher", ((string)(null)), table4);
-#line 24
+#line 25
  testRunner.Then("the total amount payable on the basket should be £50.15");
 #line hidden
             this.ScenarioCleanup();
@@ -142,7 +142,7 @@ this.FeatureBackground();
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Apply a promotional voucher to a valid basket, then make the basket total come un" +
                     "der the voucher threshold", ((string[])(null)));
-#line 26
+#line 28
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
@@ -153,20 +153,20 @@ this.FeatureBackground();
                         "1"});
             table5.AddRow(new string[] {
                         "2"});
-#line 27
+#line 29
  testRunner.Given("I have added the following items to my basket", ((string)(null)), table5);
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table6.AddRow(new string[] {
                         "XXX-XXX"});
-#line 31
+#line 33
  testRunner.When("I apply the promotional voucher", ((string)(null)), table6);
-#line 34
- testRunner.Then("the total amount payable on the basket should be £50.15");
-#line 35
- testRunner.When("I remove product id \'1\'");
 #line 36
+ testRunner.Then("the total amount payable on the basket should be £50.15");
+#line 37
+ testRunner.When("I remove product id \'1\'");
+#line 38
  testRunner.Then("the total amount payable on the basket should be £44.65");
 #line hidden
             this.ScenarioCleanup();
@@ -177,7 +177,7 @@ this.FeatureBackground();
         public virtual void ApplyAPromotionalVoucherToAnInvalidBasket()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Apply a promotional voucher to an invalid basket", ((string[])(null)));
-#line 39
+#line 42
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
@@ -186,16 +186,16 @@ this.FeatureBackground();
                         "ProductId"});
             table7.AddRow(new string[] {
                         "1"});
-#line 40
+#line 43
  testRunner.Given("I have added the following items to my basket", ((string)(null)), table7);
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table8.AddRow(new string[] {
                         "XXX-XXX"});
-#line 43
- testRunner.When("I apply the promotional voucher", ((string)(null)), table8);
 #line 46
+ testRunner.When("I apply the promotional voucher", ((string)(null)), table8);
+#line 49
  testRunner.Then("the total amount payable on the basket should be £10.50");
 #line hidden
             this.ScenarioCleanup();
@@ -208,7 +208,7 @@ this.FeatureBackground();
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Applying a promotional voucher to a valid basket, which has already had a voucher" +
                     " applied", ((string[])(null)));
-#line 49
+#line 53
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
@@ -219,25 +219,25 @@ this.FeatureBackground();
                         "1"});
             table9.AddRow(new string[] {
                         "2"});
-#line 50
+#line 54
  testRunner.Given("I have added the following items to my basket", ((string)(null)), table9);
 #line hidden
             TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table10.AddRow(new string[] {
                         "XXX-XXX"});
-#line 54
+#line 58
  testRunner.When("I apply the promotional voucher", ((string)(null)), table10);
-#line 57
+#line 61
  testRunner.Then("the total amount payable on the basket should be £50.15");
 #line hidden
             TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table11.AddRow(new string[] {
                         "YYY-YYY"});
-#line 58
+#line 62
  testRunner.When("I apply the promotional voucher", ((string)(null)), table11);
-#line 61
+#line 65
  testRunner.Then("the total amount payable on the basket should be £50.15");
 #line hidden
             this.ScenarioCleanup();
@@ -248,7 +248,7 @@ this.FeatureBackground();
         public virtual void RemovingAPromotionalVoucherAfterApplyingItToAValidBasket()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Removing a promotional voucher after applying it to a valid basket", ((string[])(null)));
-#line 64
+#line 69
 this.ScenarioSetup(scenarioInfo);
 #line 6
 this.FeatureBackground();
@@ -259,25 +259,25 @@ this.FeatureBackground();
                         "1"});
             table12.AddRow(new string[] {
                         "2"});
-#line 65
+#line 70
  testRunner.Given("I have added the following items to my basket", ((string)(null)), table12);
 #line hidden
             TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table13.AddRow(new string[] {
                         "XXX-XXX"});
-#line 69
+#line 74
  testRunner.When("I apply the promotional voucher", ((string)(null)), table13);
-#line 72
+#line 77
  testRunner.Then("the total amount payable on the basket should be £50.15");
 #line hidden
             TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                         "VoucherCode"});
             table14.AddRow(new string[] {
                         "XXX-XXX"});
-#line 73
+#line 78
  testRunner.When("I remove the promotional voucher", ((string)(null)), table14);
-#line 76
+#line 81
  testRunner.Then("the total amount payable on the basket should be £55.15");
 #line hidden
             this.ScenarioCleanup();

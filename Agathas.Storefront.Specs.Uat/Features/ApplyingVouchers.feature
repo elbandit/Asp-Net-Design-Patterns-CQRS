@@ -13,6 +13,7 @@ Background:
 		| XXX-XXX     | 5.00     | 50.00     | 
 		| YYY-YYY     | 10.00    | 40.00     | 			
 
+
 Scenario: Apply a promotional voucher to a valid basket
 	Given I have added the following items to my basket
 		| ProductId | 
@@ -22,6 +23,7 @@ Scenario: Apply a promotional voucher to a valid basket
 		| VoucherCode	| 
 		| XXX-XXX		| 
 	Then the total amount payable on the basket should be £50.15
+
 
 Scenario: Apply a promotional voucher to a valid basket, then make the basket total come under the voucher threshold
 	Given I have added the following items to my basket
@@ -36,6 +38,7 @@ Scenario: Apply a promotional voucher to a valid basket, then make the basket to
 	Then the total amount payable on the basket should be £44.65
 #	And I should be told that "Your basket is below the threshold in order to apply the voucher XXX-XXX."
 
+
 Scenario: Apply a promotional voucher to an invalid basket
 	Given I have added the following items to my basket
 		| ProductId | 
@@ -45,6 +48,7 @@ Scenario: Apply a promotional voucher to an invalid basket
 		| XXX-XXX		| 
 	Then the total amount payable on the basket should be £10.50
 #	And I should be told that "Your basket is below the threshold in order to apply the voucher XXX-XXX."
+
 
 Scenario: Applying a promotional voucher to a valid basket, which has already had a voucher applied
 	Given I have added the following items to my basket
@@ -60,6 +64,7 @@ Scenario: Applying a promotional voucher to a valid basket, which has already ha
 		| YYY-YYY		| 
 	Then the total amount payable on the basket should be £50.15
 #	And I should be told that "Voucher YYY-YYY cannot be used in conjunction with any other voucher."
+
 
 Scenario: Removing a promotional voucher after applying it to a valid basket
 	Given I have added the following items to my basket
