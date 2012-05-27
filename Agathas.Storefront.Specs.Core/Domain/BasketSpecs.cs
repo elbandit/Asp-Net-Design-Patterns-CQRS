@@ -1,11 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Sales.Model;
+using Agathas.Storefront.Sales.Model.Baskets;
+using Agathas.Storefront.Sales.Model.Baskets.Events;
+using Agathas.Storefront.Sales.Model.Products;
+using Machine.Fakes;
+using Machine.Specifications;
+using Machine.Specifications.Model;
 
 namespace Agathas.Storefront.Specs.Core.Domain
 {
     public class BasketSpecs
     {
+        [Subject(typeof(Basket))]
+        public class when_adding_products_to_a_basket : WithSubject<Basket>
+        {
+            private Establish context = () =>
+            {
+                _event_context = new DomainEventsContext();
+                DomainEvents.set_domain_event_handler_registery(_event_context);
+
+                Subject = new Basket(Guid.NewGuid());
+                _product = new Product(1, "Hat", new Money(5m), "Hats");
+            };
+
+            private Because of = () => Subject.add(_product);
+
+            private It should_raise_an_event_showing_that_the_total_cost_of_the_basket_has_increased = () =>
+            {
+                _event_context.Events.ShouldContain(x => x.GetType() == typeof(BasketPriceChanged));
+            };
+                        
+            private static Product _product;
+            private static DomainEventsContext _event_context;
+        }
     }
 }
