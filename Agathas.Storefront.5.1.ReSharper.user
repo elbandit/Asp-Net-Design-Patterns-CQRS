@@ -7,8 +7,15 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="2149" fromTop="19" />
+      <File id="34A2C3A9-FC81-487A-BC29-6CFA05FBB46C/f:CouponService.cs" caret="244" fromTop="10" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Commands/f:ApplyOfferToBasketCommand.cs" caret="172" fromTop="5" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:ApplyOfferToBasketCommandHandler.cs" caret="698" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="34A2C3A9-FC81-487A-BC29-6CFA05FBB46C/f:CouponService.cs" caret="236" fromTop="9" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -17,8 +24,14 @@
     <Providers />
   </UnitTestRunner>
   <UnitTestRunnerNUnit>
-    <NUnitInstallDir IsNull="False">
-    </NUnitInstallDir>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="List" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

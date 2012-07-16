@@ -1,0 +1,35 @@
+Satellite Site Contexts:
+
+ 
+
+- Browsing
+
+    - Search
+
+    - Product Detail
+
+- Shopping
+
+    - Basket
+
+- Discount
+
+    - Products
+
+    - Delivery
+
+- Loyalty
+
+- Ordering
+
+    - Delivery
+
+    - Payment
+
+    - Shipping
+
+ 
+
+- Infrastructure
+
+    - Authentication
