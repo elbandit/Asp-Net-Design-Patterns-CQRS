@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Web.Mvc;
+using Agathas.Storefront.Application;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api;
 using Agathas.Storefront.Sales.Api.Commands;
@@ -11,11 +12,11 @@ namespace Agathas.Storefront.Ui.Web.Controllers
 {
     public class BasketController : Controller
     {
-        private readonly Application _application;
+        private readonly Api _application;
         private readonly QueryService _query_service;
         private readonly IClientStorage _client_storage;
         
-        public BasketController(Application application, QueryService query_service, IClientStorage client_storage)
+        public BasketController(Api application, QueryService query_service, IClientStorage client_storage)
         {
             _application = application;
             _query_service = query_service;

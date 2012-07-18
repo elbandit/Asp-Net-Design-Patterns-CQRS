@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
-    namespace="Agathas.Storefront.Sales.Model.Products"
-        assembly="Agathas.Storefront.Sales">
+    namespace="Agathas.Storefront.Shopping.Model.Baskets.Products"
+        assembly="Agathas.Storefront.Shopping">
 
   <class name="Product" table="Products" lazy="false" >
 
@@ -11,7 +11,7 @@
 
     <property access="field" column="Name" name="_name"/>
 
-    <component class="Agathas.Storefront.Sales.Model.Money" name="_price" access="field">
+    <component class="Agathas.Storefront.Common.Money" name="_price" access="field">
       <property access="field" name="_value" column="Price"/>
     </component>
   </class>

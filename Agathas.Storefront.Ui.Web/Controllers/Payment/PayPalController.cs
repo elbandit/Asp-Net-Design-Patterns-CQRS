@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-using Agathas.Storefront.Sales.Api;
+using Agathas.Storefront.Application;
 using Agathas.Storefront.Sales.Api.Commands;
 using Agathas.Storefront.Ui.Web.Views;
 using Agathas.Storefront.Ui.Web.Views.View;
@@ -9,9 +9,9 @@ namespace Agathas.Storefront.Ui.Web.Controllers.Payment
     public class PayPalController : Controller
     {
         private readonly QueryService _queryService;       
-        private readonly Application _application;
+        private readonly Api _application;
 
-        public PayPalController(Application application, 
+        public PayPalController(Api application, 
                                 QueryService query_service)
         {            
             _queryService = query_service;

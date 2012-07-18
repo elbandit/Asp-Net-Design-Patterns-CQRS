@@ -1,7 +1,6 @@
 ﻿using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Shopping.Baskets.Products;
 
-namespace Agathas.Storefront.Sales.Model.Products
+namespace Agathas.Storefront.Shopping.Model.Baskets.Products
 {
     public interface IProductRepository : IRepository<Product, int>
     {

@@ -1,6 +1,6 @@
-﻿using Agathas.Storefront.Infrastructure;
+﻿using Agathas.Storefront.Sales.Api.Repositories;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public class DomainViewsRepository : IDomainViewsRepository
     {

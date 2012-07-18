@@ -11,7 +11,7 @@ namespace Agathas.Storefront.Infrastructure.Repositories
         public static void Init()
         {
             Configuration config = new Configuration();
-            config.AddAssembly("Agathas.Storefront.Sales");
+            config.AddAssembly("Agathas.Storefront.Shopping");
 
             config.Configure();
 

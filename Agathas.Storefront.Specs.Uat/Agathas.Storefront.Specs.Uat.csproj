@@ -35,7 +35,7 @@
       <HintPath>..\packages\Iesi.Collections.3.2.0.4000\lib\Net35\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate">
-      <HintPath>..\packages\NHibernate.3.3.0.4000\lib\Net35\NHibernate.dll</HintPath>
+      <HintPath>..\packages\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
       <HintPath>..\packages\NLog.2.0.0.2000\lib\net40\NLog.dll</HintPath>
@@ -89,13 +89,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Application\Agathas.Storefront.Application.csproj">
+      <Project>{FD0D7BCA-6F84-478F-92EB-E187DC1780B6}</Project>
+      <Name>Agathas.Storefront.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Common\Agathas.Storefront.Common.csproj">
+      <Project>{44742C7B-B220-4154-BC0D-CE82B1BE74C9}</Project>
+      <Name>Agathas.Storefront.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
       <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
       <Name>Agathas.Storefront.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Agathas.Storefront.Sales\Agathas.Storefront.Sales.csproj">
-      <Project>{9CAD1EB3-6F4A-4261-8967-ACC17152194D}</Project>
-      <Name>Agathas.Storefront.Sales</Name>
+    <ProjectReference Include="..\Agathas.Storefront.Shopping\Agathas.Storefront.Shopping.csproj">
+      <Project>{6B8D6DFC-1688-4051-A362-0B1D314CBB37}</Project>
+      <Name>Agathas.Storefront.Shopping</Name>
     </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Ui.Web.Views\Agathas.Storefront.Ui.Web.Views.csproj">
       <Project>{E57C5FED-61A0-4357-8308-ABEA91CC9E6D}</Project>

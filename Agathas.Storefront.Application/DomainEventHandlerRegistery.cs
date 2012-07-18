@@ -1,4 +1,7 @@
-﻿namespace Agathas.Storefront.Application
+﻿using Agathas.Storefront.Infrastructure;
+using StructureMap;
+
+namespace Agathas.Storefront.Application
 {
     public class DomainEventHandlerRegistery : IDomainEventHandlerRegistery
     {        

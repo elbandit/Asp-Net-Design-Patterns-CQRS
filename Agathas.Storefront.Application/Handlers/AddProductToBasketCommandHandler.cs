@@ -1,9 +1,9 @@
 ﻿using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api.Commands;
-using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Sales.Model.Products;
+using Agathas.Storefront.Shopping.Model.Baskets;
+using Agathas.Storefront.Shopping.Model.Baskets.Products;
 
-namespace Agathas.Storefront.Sales.Api.Handlers
+namespace Agathas.Storefront.Application.Handlers
 {
     public class AddProductToBasketCommandHandler : ICommandHandler<AddProductToBasketCommand>
     {

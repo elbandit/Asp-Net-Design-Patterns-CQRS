@@ -1,7 +1,7 @@
-﻿using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Model;
-using Agathas.Storefront.Sales.Model.Offers;
-using Agathas.Storefront.Sales.Model.Products;
+﻿using Agathas.Storefront.Common;
+using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Shopping.Model.Baskets.Products;
+using Agathas.Storefront.Shopping.Model.Coupons;
 using Agathas.Storefront.Specs.Uat.Support;
 using Agathas.Storefront.Ui.Web.Controllers;
 using Agathas.Storefront.Ui.Web.Views.View;

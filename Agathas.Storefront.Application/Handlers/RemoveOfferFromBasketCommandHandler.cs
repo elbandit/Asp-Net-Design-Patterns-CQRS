@@ -1,6 +1,7 @@
 ﻿using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api.Commands;
 using Agathas.Storefront.Shopping.Baskets;
+using Agathas.Storefront.Shopping.Model.Baskets;
 
 namespace Agathas.Storefront.Application.Handlers
 {

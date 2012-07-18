@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Sales.Model.Baskets.Events;
+using Agathas.Storefront.Shopping.Baskets;
 using Agathas.Storefront.Shopping.Baskets.Events;
-using Agathas.Storefront.Shopping.Baskets.Products;
+using Agathas.Storefront.Shopping.Model.Baskets.Products;
 
-namespace Agathas.Storefront.Shopping.Baskets
+namespace Agathas.Storefront.Shopping.Model.Baskets
 {
     public class Basket 
     {
@@ -46,6 +45,11 @@ namespace Agathas.Storefront.Shopping.Baskets
 
                 return running_total;
             }
+        }
+
+        public string coupon_id
+        {
+            get { throw new NotImplementedException(); }
         }
 
         public void add(Product product)
@@ -155,6 +159,11 @@ namespace Agathas.Storefront.Shopping.Baskets
             this._basket_voucher = null;
 
             DomainEvents.raise(new BasketPriceChanged(this._id, amount_to_pay()));
+        }
+
+        public bool has_had_coupon_applied()
+        {
+            throw new NotImplementedException();
         }
     }    
 }

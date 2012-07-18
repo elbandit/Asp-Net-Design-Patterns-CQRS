@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Repositories\Mapping\Basket.hbm.xml" />
+    <EmbeddedResource Include="Repositories\Mapping\Product.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Repositories\Mapping\BasketDetailView.hbm.xml" />
@@ -96,9 +97,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Repositories\Mapping\Offer.hbm.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Repositories\Mapping\Product.hbm.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

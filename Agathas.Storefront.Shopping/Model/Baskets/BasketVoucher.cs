@@ -3,7 +3,7 @@ using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Model.Baskets.Events;
 
-namespace Agathas.Storefront.Shopping.Baskets
+namespace Agathas.Storefront.Shopping.Model.Baskets
 {
     public class BasketVoucher
     {

@@ -1,5 +1,6 @@
 ﻿using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Model.Baskets.Events;
+using Agathas.Storefront.Shopping.Baskets.Events;
 using Agathas.Storefront.Ui.Web.Views.View;
 
 namespace Agathas.Storefront.Ui.Web.Views.EventHandlers

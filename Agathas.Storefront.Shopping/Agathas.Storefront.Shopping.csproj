@@ -40,20 +40,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Baskets\Basket.cs" />
-    <Compile Include="Baskets\BasketItem.cs" />
-    <Compile Include="Baskets\BasketItemFactory.cs" />
-    <Compile Include="Baskets\BasketVoucher.cs" />
-    <Compile Include="Baskets\Events\BasketCreated.cs" />
-    <Compile Include="Baskets\Events\BasketModified.cs" />
-    <Compile Include="Baskets\Events\BasketPriceChanged.cs" />
-    <Compile Include="Baskets\Events\VoucherNotApplicableForBasket.cs" />
-    <Compile Include="Baskets\IBasketRepository.cs" />
-    <Compile Include="Baskets\NonNegativeQuantity.cs" />
-    <Compile Include="Baskets\ProductSnapshot.cs" />
-    <Compile Include="Baskets\Products\IProductRepository.cs" />
-    <Compile Include="Baskets\Products\Product.cs" />
+    <Compile Include="Model\Baskets\Basket.cs" />
+    <Compile Include="Model\Baskets\BasketItem.cs" />
+    <Compile Include="Model\Baskets\BasketItemFactory.cs" />
+    <Compile Include="Model\Baskets\BasketPricingBreakdown.cs" />
+    <Compile Include="Model\Baskets\BasketPricingService.cs" />
+    <Compile Include="Model\Baskets\BasketVoucher.cs" />
+    <Compile Include="Model\Baskets\Events\BasketCreated.cs" />
+    <Compile Include="Model\Baskets\Events\BasketModified.cs" />
+    <Compile Include="Model\Baskets\Events\BasketPriceChanged.cs" />
+    <Compile Include="Model\Baskets\Events\VoucherNotApplicableForBasket.cs" />
+    <Compile Include="Model\Baskets\IBasketRepository.cs" />
+    <Compile Include="Model\Baskets\NonNegativeQuantity.cs" />
+    <Compile Include="Model\Baskets\ProductSnapshot.cs" />
+    <Compile Include="Model\Baskets\Products\IProductRepository.cs" />
+    <Compile Include="Model\Baskets\Products\Product.cs" />
+    <Compile Include="Model\Coupons\CouponIssues.cs" />
+    <Compile Include="Model\Coupons\IOfferRepository.cs" />
+    <Compile Include="Model\Coupons\Offer.cs" />
+    <Compile Include="Model\Coupons\OfferNotApplicableException.cs" />
     <Compile Include="Infrastructure\BasketRepository.cs" />
+    <Compile Include="Infrastructure\OfferRepository.cs" />
     <Compile Include="Infrastructure\ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

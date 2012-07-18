@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
-    namespace="Agathas.Storefront.Sales.Model.Baskets"
-        assembly="Agathas.Storefront.Sales">
+    namespace="Agathas.Storefront.Shopping.Model.Baskets"
+        assembly="Agathas.Storefront.Shopping">
 
   <class name="Basket" table="Baskets" lazy="false" >
 
@@ -9,12 +9,12 @@
       
     </id>
 	  
-	  <component class="Agathas.Storefront.Sales.Model.Baskets.BasketVoucher" access="field" name="_basket_voucher">		  		  
+	  <component class="Agathas.Storefront.Shopping.Model.Baskets.BasketVoucher" access="field" name="_basket_voucher">		  		  
 		  <property access="field" name="_voucher_code" column="VoucherCode"/>		  
-		  <component class="Agathas.Storefront.Sales.Model.Money" access="field" name="_discount">
+		  <component class="Agathas.Storefront.Common.Money" access="field" name="_discount">
 			  <property access="field" name="_value" column="VoucherDiscount"/>
 		  </component>		  
-		  <component class="Agathas.Storefront.Sales.Model.Money" access="field" name="_threshold">
+		  <component class="Agathas.Storefront.Common.Money" access="field" name="_threshold">
 			  <property access="field" name="_value" column="VoucherThreshold"/>
 		  </component>
 	  </component>

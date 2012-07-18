@@ -1,6 +1,5 @@
 ﻿using Agathas.Storefront.Sales.Api.Repositories;
-using Agathas.Storefront.Sales.Model.Products;
-using Agathas.Storefront.Shopping.Baskets.Products;
+using Agathas.Storefront.Shopping.Model.Baskets.Products;
 
 namespace Agathas.Storefront.Shopping.Infrastructure
 {

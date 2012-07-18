@@ -1,7 +1,7 @@
 ﻿using System;
 using Agathas.Storefront.Sales.Api.Repositories;
-using Agathas.Storefront.Sales.Model.Baskets;
 using Agathas.Storefront.Shopping.Baskets;
+using Agathas.Storefront.Shopping.Model.Baskets;
 
 namespace Agathas.Storefront.Shopping.Infrastructure
 {

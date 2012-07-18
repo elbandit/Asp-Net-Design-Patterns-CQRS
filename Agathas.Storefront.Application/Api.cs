@@ -1,13 +1,13 @@
 ﻿using Agathas.Storefront.Infrastructure;
 
-namespace Agathas.Storefront.Sales.Api
+namespace Agathas.Storefront.Application
 { 
     // API is a Facade into the application see DDD facade pattern
-    public class Application
+    public class Api
     {
         private ICommandHandlerRegistry _command_handler_registery;        
 
-        public Application(ICommandHandlerRegistry command_handler_registery)
+        public Api(ICommandHandlerRegistry command_handler_registery)
         {
             _command_handler_registery = command_handler_registery;
         }

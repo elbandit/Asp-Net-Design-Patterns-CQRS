@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\structuremap.2.6.3\lib\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.cs" />
+    <Compile Include="Api.cs" />
     <Compile Include="CommandHandlerRegistry.cs" />
     <Compile Include="Commands\AddProductToBasketCommand.cs" />
     <Compile Include="Commands\ApplyOfferToBasketCommand.cs" />
@@ -68,6 +71,9 @@
       <Project>{6B8D6DFC-1688-4051-A362-0B1D314CBB37}</Project>
       <Name>Agathas.Storefront.Shopping</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

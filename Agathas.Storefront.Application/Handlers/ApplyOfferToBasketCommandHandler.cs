@@ -1,7 +1,8 @@
 ﻿using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api.Commands;
 using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Sales.Model.Offers;
+using Agathas.Storefront.Shopping.Model.Baskets;
+using Agathas.Storefront.Shopping.Model.Coupons;
 
 namespace Agathas.Storefront.Sales.Api.Handlers
 {

@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using Agathas.Storefront.Application;
 using Agathas.Storefront.Infrastructure.PaymentGateway.CreditCard;
 using Agathas.Storefront.Sales.Api;
 using Agathas.Storefront.Sales.Api.Commands;
@@ -11,9 +12,9 @@ namespace Agathas.Storefront.Ui.Web.Controllers.Payment
     {
         private readonly QueryService _queryService;
         private readonly ICreditCardPaymentGateway _credit_card_payment_gateway;
-        private readonly Application _application;
+        private readonly Api _application;
 
-        public CreditCardController(Application application, 
+        public CreditCardController(Api application, 
                                     QueryService query_service,
                                     ICreditCardPaymentGateway credit_card_payment_gateway)
         {            

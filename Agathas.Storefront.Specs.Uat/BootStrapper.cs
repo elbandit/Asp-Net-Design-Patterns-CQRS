@@ -1,9 +1,11 @@
-﻿using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Api;
+﻿using Agathas.Storefront.Application;
+using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Infrastructure.Repositories;
 using Agathas.Storefront.Sales.Api.Repositories;
-using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Sales.Model.Offers;
-using Agathas.Storefront.Sales.Model.Products;
+using Agathas.Storefront.Shopping.Infrastructure;
+using Agathas.Storefront.Shopping.Model.Baskets;
+using Agathas.Storefront.Shopping.Model.Baskets.Products;
+using Agathas.Storefront.Shopping.Model.Coupons;
 using Agathas.Storefront.Specs.Uat.Support;
 using Chap2.ShoppingBasket.Ui.Web.Controllers;
 using StructureMap;
@@ -51,8 +53,8 @@ namespace Agathas.Storefront.Specs.Uat
             public CommandHandlersRegistry()
             {
                 Scan(s =>
-                         {
-                             s.Assembly("Agathas.Storefront.Sales");
+                         {                             
+                             s.Assembly("Agathas.Storefront.Shopping");
                              s.ConnectImplementationsToTypesClosing(typeof(ICommandHandler<>));
                          });
             }
