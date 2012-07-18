@@ -1,6 +1,8 @@
-﻿using Agathas.Storefront.Sales.Model.Products;
+﻿using Agathas.Storefront.Sales.Api.Repositories;
+using Agathas.Storefront.Sales.Model.Products;
+using Agathas.Storefront.Shopping.Baskets.Products;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Shopping.Infrastructure
 {
     public class ProductRepository : NhRepository<Product, int>, IProductRepository
     {

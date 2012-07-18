@@ -1,7 +1,10 @@
 ﻿using System;
+using Agathas.Storefront.Common;
+using Agathas.Storefront.Sales.Model.Baskets;
 using Agathas.Storefront.Sales.Model.Products;
+using Agathas.Storefront.Shopping.Baskets.Products;
 
-namespace Agathas.Storefront.Sales.Model.Baskets
+namespace Agathas.Storefront.Shopping.Baskets
 {
     // The basket has no rules, or invariants, its just a list of product id's
     // 

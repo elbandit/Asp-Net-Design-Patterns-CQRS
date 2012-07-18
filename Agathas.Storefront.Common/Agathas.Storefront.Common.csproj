@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{A1D87023-185E-43F9-A92D-BC3493CAC56F}</ProjectGuid>
+    <ProjectGuid>{44742C7B-B220-4154-BC0D-CE82B1BE74C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Agathas.Storefront.Ordering</RootNamespace>
-    <AssemblyName>Agathas.Storefront.Ordering</AssemblyName>
+    <RootNamespace>Agathas.Storefront.Common</RootNamespace>
+    <AssemblyName>Agathas.Storefront.Common</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,13 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Delivery\" />
-    <Folder Include="Payment\" />
-    <Folder Include="Shipping\" />
+    <Compile Include="Weight.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

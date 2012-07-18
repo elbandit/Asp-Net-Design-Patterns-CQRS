@@ -1,4 +1,5 @@
 ﻿using System.Web;
+using Agathas.Storefront.Infrastructure.Repositories;
 using NHibernate;
 
 namespace Agathas.Storefront.Sales.Api.Repositories

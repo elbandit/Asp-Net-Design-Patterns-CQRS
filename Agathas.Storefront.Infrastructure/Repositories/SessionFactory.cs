@@ -1,7 +1,8 @@
-﻿using NHibernate;
+﻿using Agathas.Storefront.Sales.Api.Repositories;
+using NHibernate;
 using NHibernate.Cfg;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public class SessionFactory : ISessionCoordinator
     {

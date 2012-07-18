@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Model;
-using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Sales.Model.Baskets.Events;
-using Agathas.Storefront.Sales.Model.Products;
+using Agathas.Storefront.Shopping.Baskets;
+using Agathas.Storefront.Shopping.Baskets.Events;
+using Agathas.Storefront.Shopping.Baskets.Products;
 using Machine.Fakes;
 using Machine.Specifications;
 using Machine.Specifications.Model;

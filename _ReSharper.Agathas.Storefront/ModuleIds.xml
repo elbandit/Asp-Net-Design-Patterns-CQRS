@@ -11,4 +11,7 @@
   <Module PersistentId="34A2C3A9-FC81-487A-BC29-6CFA05FBB46C" ModuleId="Agathas.Storefront.Promotions" />
   <Module PersistentId="A1D87023-185E-43F9-A92D-BC3493CAC56F" ModuleId="Agathas.Storefront.Ordering" />
   <Module PersistentId="6B8D6DFC-1688-4051-A362-0B1D314CBB37" ModuleId="Agathas.Storefront.Shopping" />
+  <Module PersistentId="260C9FB5-E31C-4823-AEE9-B8B12D838F3C" ModuleId="Agathas.Storefront.Shipping" />
+  <Module PersistentId="44742C7B-B220-4154-BC0D-CE82B1BE74C9" ModuleId="Agathas.Storefront.Common" />
+  <Module PersistentId="BF4A1814-6F4C-4B8E-8ACE-4FEC90D59AE7" ModuleId="Agathas.Storefront.Account" />
 </Modules>

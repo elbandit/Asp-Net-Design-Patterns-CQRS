@@ -1,6 +1,7 @@
 ﻿using System.Web;
+using Agathas.Storefront.Sales.Api.Repositories;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public static class SessionStorageFactory
     {

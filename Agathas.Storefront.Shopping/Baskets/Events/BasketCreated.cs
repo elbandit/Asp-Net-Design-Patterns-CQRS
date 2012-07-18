@@ -1,7 +1,8 @@
 ﻿using System;
+using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
 
-namespace Agathas.Storefront.Sales.Model.Baskets.Events
+namespace Agathas.Storefront.Shopping.Baskets.Events
 {
     public class BasketCreated : IDomainEvent
     {        

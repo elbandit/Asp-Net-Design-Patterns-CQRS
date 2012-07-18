@@ -1,5 +1,6 @@
 ﻿using System;
 using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Promotions.Coupons;
 
 namespace Agathas.Storefront.Sales.Model.Offers
 {

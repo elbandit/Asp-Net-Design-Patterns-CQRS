@@ -53,10 +53,21 @@
     <Compile Include="Baskets\ProductSnapshot.cs" />
     <Compile Include="Baskets\Products\IProductRepository.cs" />
     <Compile Include="Baskets\Products\Product.cs" />
-    <Compile Include="Class1.cs" />
-    <Compile Include="Money.cs" />
+    <Compile Include="Infrastructure\BasketRepository.cs" />
+    <Compile Include="Infrastructure\ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Common\Agathas.Storefront.Common.csproj">
+      <Project>{44742C7B-B220-4154-BC0D-CE82B1BE74C9}</Project>
+      <Name>Agathas.Storefront.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

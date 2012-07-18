@@ -54,29 +54,20 @@
     <Compile Include="Handlers\CreateABasketCommandHandler.cs" />
     <Compile Include="Handlers\RemoveOfferFromBasketCommandHandler.cs" />
     <Compile Include="Handlers\RemoveProductFromBasketCommandHandler.cs" />
-    <Compile Include="Repositories\BasketRepository.cs" />
-    <Compile Include="Repositories\DomainViewsRepository.cs" />
-    <Compile Include="Repositories\HttpSessionContainer.cs" />
-    <Compile Include="Repositories\ISessionCoordinator.cs" />
-    <Compile Include="Repositories\ISessionStorageContainer.cs" />
-    <Compile Include="Repositories\NhQueryService.cs" />
-    <Compile Include="Repositories\NhRepository.cs" />
-    <Compile Include="Repositories\NhUnitOfWork.cs" />
-    <Compile Include="Repositories\OfferRepository.cs" />
-    <Compile Include="Repositories\ProductRepository.cs" />
-    <Compile Include="Repositories\SessionFactory.cs" />
-    <Compile Include="Repositories\SessionStorageFactory.cs" />
-    <Compile Include="Repositories\ThreadSessionStorageContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Repositories\Mapping\Product.hbm.xml" />
-    <EmbeddedResource Include="Repositories\Mapping\Offer.hbm.xml" />
-    <EmbeddedResource Include="Repositories\Mapping\BasketVoucher.hbm.xml" />
-    <EmbeddedResource Include="Repositories\Mapping\BasketItem.hbm.xml" />
-    <EmbeddedResource Include="Repositories\Mapping\BasketDetailView.hbm.xml" />
-    <EmbeddedResource Include="Repositories\Mapping\Basket.hbm.xml" />
     <Content Include="_ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Shopping\Agathas.Storefront.Shopping.csproj">
+      <Project>{6B8D6DFC-1688-4051-A362-0B1D314CBB37}</Project>
+      <Name>Agathas.Storefront.Shopping</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

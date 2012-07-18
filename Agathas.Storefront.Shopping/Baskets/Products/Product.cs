@@ -1,4 +1,6 @@
-﻿namespace Agathas.Storefront.Sales.Model.Products
+﻿using Agathas.Storefront.Common;
+
+namespace Agathas.Storefront.Shopping.Baskets.Products
 {
     public class Product 
     {

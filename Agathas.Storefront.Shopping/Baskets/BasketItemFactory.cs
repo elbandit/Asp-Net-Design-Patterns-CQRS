@@ -1,6 +1,7 @@
-﻿using Agathas.Storefront.Sales.Model.Products;
+﻿using Agathas.Storefront.Sales.Model.Baskets;
+using Agathas.Storefront.Shopping.Baskets.Products;
 
-namespace Agathas.Storefront.Sales.Model.Baskets
+namespace Agathas.Storefront.Shopping.Baskets
 {
     public static class BasketItemFactory
     {

@@ -1,4 +1,5 @@
 ﻿using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Shopping.Baskets.Products;
 
 namespace Agathas.Storefront.Sales.Model.Products
 {

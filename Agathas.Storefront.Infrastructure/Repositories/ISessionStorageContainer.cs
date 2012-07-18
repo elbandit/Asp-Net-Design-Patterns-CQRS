@@ -1,6 +1,6 @@
 ﻿using NHibernate;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public interface ISessionStorageContainer
     {

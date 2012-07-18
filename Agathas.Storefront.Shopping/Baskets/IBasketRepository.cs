@@ -1,7 +1,7 @@
 ﻿using System;
 using Agathas.Storefront.Infrastructure;
 
-namespace Agathas.Storefront.Sales.Model.Baskets
+namespace Agathas.Storefront.Shopping.Baskets
 {
     public interface IBasketRepository : IRepository<Basket, Guid>
     {

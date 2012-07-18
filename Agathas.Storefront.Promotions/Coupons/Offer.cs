@@ -1,7 +1,8 @@
 ﻿using System;
-using Agathas.Storefront.Sales.Model.Baskets;
+using Agathas.Storefront.Common;
+using Agathas.Storefront.Sales.Model.Offers;
 
-namespace Agathas.Storefront.Sales.Model.Offers
+namespace Agathas.Storefront.Promotions.Coupons
 {
     public class Offer
     {

@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DA20AC99-D153-4841-9303-5EA27DC60C91}</ProjectGuid>
+    <ProjectGuid>{BF4A1814-6F4C-4B8E-8ACE-4FEC90D59AE7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Agatha.Storefront.Account</RootNamespace>
-    <AssemblyName>Agatha.Storefront.Account</AssemblyName>
+    <RootNamespace>Agathas.Storefront.Account</RootNamespace>
+    <AssemblyName>Agathas.Storefront.Account</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,6 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AddressBook\" />
     <Folder Include="Orders\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

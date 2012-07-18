@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Agathas.Storefront.Sales.Model
+﻿namespace Agathas.Storefront.Common
 {
     public class Money
     {

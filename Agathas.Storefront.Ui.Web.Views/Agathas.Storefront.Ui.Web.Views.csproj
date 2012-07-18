@@ -57,6 +57,10 @@
       <Project>{9CAD1EB3-6F4A-4261-8967-ACC17152194D}</Project>
       <Name>Agathas.Storefront.Sales</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Agathas.Storefront.Shopping\Agathas.Storefront.Shopping.csproj">
+      <Project>{6B8D6DFC-1688-4051-A362-0B1D314CBB37}</Project>
+      <Name>Agathas.Storefront.Shopping</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

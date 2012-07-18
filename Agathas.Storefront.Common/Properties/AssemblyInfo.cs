@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Agatha.Storefront.Account")]
+[assembly: AssemblyTitle("Agathas.Storefront.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Agatha.Storefront.Account")]
-[assembly: AssemblyCopyright("Copyright ©  2012")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("Agathas.Storefront.Common")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("cc67a7f9-e71c-4373-bae5-56caa555b83c")]
+[assembly: Guid("d12f7564-98cb-49b3-8e7e-097b7fcd2f4e")]
 
 // Version information for an assembly consists of the following four values:
 //

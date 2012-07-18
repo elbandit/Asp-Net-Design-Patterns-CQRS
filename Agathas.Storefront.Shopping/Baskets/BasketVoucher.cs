@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
+using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Model.Baskets.Events;
 
-namespace Agathas.Storefront.Sales.Model.Baskets
+namespace Agathas.Storefront.Shopping.Baskets
 {
     public class BasketVoucher
     {

@@ -1,7 +1,9 @@
 ﻿using System;
+using Agathas.Storefront.Promotions.Coupons;
+using Agathas.Storefront.Sales.Api.Repositories;
 using Agathas.Storefront.Sales.Model.Offers;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Promotions.Infrastructure
 {
     public class OfferRepository : NhRepository<Offer, Guid>, IOfferRepository
     {
