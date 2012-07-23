@@ -4,14 +4,14 @@
 	I want to be able to apply a promotional voucher to my basket 	
 
 Background:
-	Given the following products
-		|ProductId	|Price			|Name	|Category		|
-		|1			|10.50			|Hat	|HeadGear		|
-		|2			|44.65			|Jumper	|Clothing		|
-	And the following offer
+	Given the following offer
 		| VoucherCode | Discount | Threshold | 
 		| XXX-XXX     | 5.00     | 50.00     | 
-		| YYY-YYY     | 10.00    | 40.00     | 			
+		| YYY-YYY     | 10.00    | 40.00     | 	
+	And the following products
+		|ProductId	|Price			|Name	|Category		|
+		|1			|10.50			|Hat	|HeadGear		|
+		|2			|44.65			|Jumper	|Clothing		|			
 
 
 Scenario: Apply a promotional voucher to a valid basket

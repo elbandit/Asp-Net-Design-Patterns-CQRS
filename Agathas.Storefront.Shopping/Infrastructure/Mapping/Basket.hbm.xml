@@ -11,10 +11,10 @@
 	  
 	  <component class="Agathas.Storefront.Shopping.Model.Baskets.BasketVoucher" access="field" name="_basket_voucher">		  		  
 		  <property access="field" name="_voucher_code" column="VoucherCode"/>		  
-		  <component class="Agathas.Storefront.Common.Money" access="field" name="_discount">
+		  <component class="Agathas.Storefront.Common.Money, Agathas.Storefront.Common" access="field" name="_discount">
 			  <property access="field" name="_value" column="VoucherDiscount"/>
 		  </component>		  
-		  <component class="Agathas.Storefront.Common.Money" access="field" name="_threshold">
+		  <component class="Agathas.Storefront.Common.Money, Agathas.Storefront.Common" access="field" name="_threshold">
 			  <property access="field" name="_value" column="VoucherThreshold"/>
 		  </component>
 	  </component>

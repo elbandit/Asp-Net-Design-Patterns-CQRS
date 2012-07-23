@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Sales", "Agathas.Storefront.Sales\Agathas.Storefront.Sales.csproj", "{9CAD1EB3-6F4A-4261-8967-ACC17152194D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Infrastructure", "Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj", "{578D58FB-8380-489F-8468-138EA8C27937}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Ui.Web.Views", "Agathas.Storefront.Ui.Web.Views\Agathas.Storefront.Ui.Web.Views.csproj", "{E57C5FED-61A0-4357-8308-ABEA91CC9E6D}"
@@ -39,10 +37,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CAD1EB3-6F4A-4261-8967-ACC17152194D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CAD1EB3-6F4A-4261-8967-ACC17152194D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CAD1EB3-6F4A-4261-8967-ACC17152194D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CAD1EB3-6F4A-4261-8967-ACC17152194D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{578D58FB-8380-489F-8468-138EA8C27937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{578D58FB-8380-489F-8468-138EA8C27937}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{578D58FB-8380-489F-8468-138EA8C27937}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -92,7 +86,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9CAD1EB3-6F4A-4261-8967-ACC17152194D} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{70601E59-5D3C-4FBA-A0EC-A2A420214DAF} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{6B8D6DFC-1688-4051-A362-0B1D314CBB37} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{260C9FB5-E31C-4823-AEE9-B8B12D838F3C} = {580C1C19-3934-49E8-B41A-82FBBEF01475}

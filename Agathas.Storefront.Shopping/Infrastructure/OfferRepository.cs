@@ -1,5 +1,5 @@
 ﻿using System;
-using Agathas.Storefront.Sales.Api.Repositories;
+using Agathas.Storefront.Infrastructure.Repositories;
 using Agathas.Storefront.Shopping.Model.Coupons;
 
 namespace Agathas.Storefront.Shopping.Infrastructure

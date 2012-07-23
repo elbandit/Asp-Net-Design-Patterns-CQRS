@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Linq;
-using Agathas.Storefront.Infrastructure;
 using NHibernate.Linq;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public class NhQueryService : IQueryService
     {

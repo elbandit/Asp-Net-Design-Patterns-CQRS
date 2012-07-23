@@ -71,10 +71,6 @@
       <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
       <Name>Agathas.Storefront.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Agathas.Storefront.Sales\Agathas.Storefront.Sales.csproj">
-      <Project>{9CAD1EB3-6F4A-4261-8967-ACC17152194D}</Project>
-      <Name>Agathas.Storefront.Sales</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Shopping\Agathas.Storefront.Shopping.csproj">
       <Project>{6B8D6DFC-1688-4051-A362-0B1D314CBB37}</Project>
       <Name>Agathas.Storefront.Shopping</Name>

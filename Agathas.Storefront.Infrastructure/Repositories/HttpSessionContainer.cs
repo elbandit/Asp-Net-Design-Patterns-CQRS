@@ -1,8 +1,7 @@
 ﻿using System.Web;
-using Agathas.Storefront.Infrastructure.Repositories;
 using NHibernate;
 
-namespace Agathas.Storefront.Sales.Api.Repositories
+namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public class HttpSessionContainer : ISessionStorageContainer
     {

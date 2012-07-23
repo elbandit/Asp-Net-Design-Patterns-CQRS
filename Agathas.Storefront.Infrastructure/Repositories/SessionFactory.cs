@@ -1,5 +1,4 @@
-﻿using Agathas.Storefront.Sales.Api.Repositories;
-using NHibernate;
+﻿using NHibernate;
 using NHibernate.Cfg;
 
 namespace Agathas.Storefront.Infrastructure.Repositories

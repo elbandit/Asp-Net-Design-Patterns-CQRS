@@ -1,5 +1,4 @@
 ﻿using System.Web;
-using Agathas.Storefront.Sales.Api.Repositories;
 
 namespace Agathas.Storefront.Infrastructure.Repositories
 {

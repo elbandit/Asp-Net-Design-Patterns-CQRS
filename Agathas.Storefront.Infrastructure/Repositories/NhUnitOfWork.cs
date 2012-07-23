@@ -1,6 +1,4 @@
-﻿using Agathas.Storefront.Infrastructure;
-
-namespace Agathas.Storefront.Sales.Api.Repositories
+﻿namespace Agathas.Storefront.Infrastructure.Repositories
 {
     public class NhUnitOfWork :IUnitOfWork
     {

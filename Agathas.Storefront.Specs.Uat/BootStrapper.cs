@@ -1,7 +1,6 @@
 ﻿using Agathas.Storefront.Application;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Infrastructure.Repositories;
-using Agathas.Storefront.Sales.Api.Repositories;
 using Agathas.Storefront.Shopping.Infrastructure;
 using Agathas.Storefront.Shopping.Model.Baskets;
 using Agathas.Storefront.Shopping.Model.Baskets.Products;
@@ -53,8 +52,8 @@ namespace Agathas.Storefront.Specs.Uat
             public CommandHandlersRegistry()
             {
                 Scan(s =>
-                         {                             
-                             s.Assembly("Agathas.Storefront.Shopping");
+                         {                                                          
+                             s.Assembly("Agathas.Storefront.Application");
                              s.ConnectImplementationsToTypesClosing(typeof(ICommandHandler<>));
                          });
             }

@@ -1,6 +1,6 @@
 ﻿using Agathas.Storefront.Common;
 
-namespace Agathas.Storefront.Shopping.Model.Baskets.Products          
+namespace Agathas.Storefront.Shopping.Model.Baskets.Products                
 {
     public class Product 
     {

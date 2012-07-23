@@ -1,4 +1,4 @@
-﻿using Agathas.Storefront.Sales.Api.Repositories;
+﻿using Agathas.Storefront.Infrastructure.Repositories;
 using NHibernate;
 using NHibernate.Cfg;
 using NHibernate.Dialect;

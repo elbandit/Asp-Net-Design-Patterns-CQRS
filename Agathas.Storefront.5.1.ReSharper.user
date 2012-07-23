@@ -8,68 +8,55 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="770" fromTop="16" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="207" fromTop="9" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="312" fromTop="9" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketDetailView.hbm.xml" caret="0" fromTop="0" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="860" fromTop="13" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="626" fromTop="15" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:IProductRepository.cs" caret="106" fromTop="3" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="604" fromTop="10" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="470" fromTop="8" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="2084" fromTop="21" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/f:ProductRepository.cs" caret="221" fromTop="5" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:Product.cs" caret="96" fromTop="2" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1500" fromTop="7" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/f:Web.config" caret="0" fromTop="0" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Product.hbm.xml" caret="272" fromTop="6" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:SessionFactory.cs" caret="438" fromTop="13" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:ActionResultExtensions.cs" caret="0" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:FeatureEvents.cs" caret="0" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:InMemoryClientStorage.cs" caret="0" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:TestConnectionProvider.cs" caret="0" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:TestNHConfigurator.cs" caret="0" fromTop="0" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:DomainViewsRepository.cs" caret="104" fromTop="2" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="1840" fromTop="0" />
       <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:DomainEventHandlerRegistery.cs" caret="0" fromTop="0" />
       <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:CommandHandlerRegistry.cs" caret="0" fromTop="0" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:_ReadMe.txt" caret="30" fromTop="0" />
       <File id="578D58FB-8380-489F-8468-138EA8C27937/f:TransactionHandler.cs" caret="0" fromTop="0" />
       <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:Api.cs" caret="0" fromTop="0" />
       <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Commands/f:AddProductToBasketCommand.cs" caret="0" fromTop="0" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="1162" fromTop="15" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="613" fromTop="9" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:DomainViewsRepository.cs" caret="52" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:HttpSessionContainer.cs" caret="91" fromTop="3" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ISessionCoordinator.cs" caret="66" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ISessionStorageContainer.cs" caret="0" fromTop="0" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhQueryService.cs" caret="115" fromTop="4" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhUnitOfWork.cs" caret="52" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:SessionFactory.cs" caret="226" fromTop="10" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:SessionStorageFactory.cs" caret="0" fromTop="0" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ThreadSessionStorageContainer.cs" caret="444" fromTop="14" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Support/f:FeatureEvents.cs" caret="310" fromTop="6" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="2252" fromTop="41" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:Product.cs" caret="102" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhRepository.cs" caret="587" fromTop="13" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="1692" fromTop="16" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:_ReadMe.txt" caret="0" fromTop="0" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="267" fromTop="8" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketDetailView.hbm.xml" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:NonNegativeQuantity.cs" caret="128" fromTop="4" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1552" fromTop="17" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:BasketVoucher.hbm.xml" caret="142" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="112" fromTop="4" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:Offer.hbm.xml" caret="141" fromTop="2" />
     </RecentFiles>
     <RecentEdits>
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:Api.cs" caret="178" fromTop="5" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/d:Payment/f:PayPalController.cs" caret="452" fromTop="13" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/d:Payment/f:PayPalController.cs" caret="60" fromTop="0" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="646" fromTop="14" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="470" fromTop="10" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/d:Payment/f:CreditCardController.cs" caret="640" fromTop="12" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="74" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="584" fromTop="16" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="79" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="592" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="1215" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="1357" fromTop="10" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="1726" fromTop="10" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="200" fromTop="3" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="401" fromTop="11" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Basket.hbm.xml" caret="604" fromTop="13" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="200" fromTop="3" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketItem.hbm.xml" caret="401" fromTop="10" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="200" fromTop="3" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="557" fromTop="14" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:BasketVoucher.hbm.xml" caret="732" fromTop="18" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="194" fromTop="3" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="451" fromTop="11" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/d:Mapping/f:Offer.hbm.xml" caret="626" fromTop="15" />
       <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:IProductRepository.cs" caret="106" fromTop="3" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:Product.cs" caret="96" fromTop="2" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1500" fromTop="7" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:SessionFactory.cs" caret="438" fromTop="13" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:DomainViewsRepository.cs" caret="104" fromTop="2" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="2273" fromTop="9" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:SessionFactory.cs" caret="388" fromTop="13" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:DomainViewsRepository.cs" caret="52" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhUnitOfWork.cs" caret="52" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhRepository.cs" caret="1125" fromTop="42" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:HttpSessionContainer.cs" caret="91" fromTop="3" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ISessionCoordinator.cs" caret="182" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ISessionCoordinator.cs" caret="72" fromTop="2" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhQueryService.cs" caret="115" fromTop="4" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ThreadSessionStorageContainer.cs" caret="0" fromTop="5" />
+      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ThreadSessionStorageContainer.cs" caret="125" fromTop="4" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="2252" fromTop="13" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:Product.cs" caret="102" fromTop="2" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="189" fromTop="6" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="267" fromTop="8" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:NonNegativeQuantity.cs" caret="48" fromTop="0" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1514" fromTop="17" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:BasketVoucher.hbm.xml" caret="142" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:Offer.hbm.xml" caret="141" fromTop="2" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

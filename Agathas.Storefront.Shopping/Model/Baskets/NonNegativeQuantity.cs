@@ -1,4 +1,4 @@
-﻿namespace Agathas.Storefront.Shopping.Baskets
+﻿namespace Agathas.Storefront.Shopping.Model.Baskets
 {
     public class NonNegativeQuantity
     {

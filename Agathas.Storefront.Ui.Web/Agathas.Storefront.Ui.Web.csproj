@@ -136,10 +136,6 @@
       <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
       <Name>Agathas.Storefront.Infrastructure</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Agathas.Storefront.Sales\Agathas.Storefront.Sales.csproj">
-      <Project>{9CAD1EB3-6F4A-4261-8967-ACC17152194D}</Project>
-      <Name>Agathas.Storefront.Sales</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Ui.Web.Views\Agathas.Storefront.Ui.Web.Views.csproj">
       <Project>{E57C5FED-61A0-4357-8308-ABEA91CC9E6D}</Project>
       <Name>Agathas.Storefront.Ui.Web.Views</Name>
