@@ -1,11 +1,11 @@
 ﻿using System;
 using Agathas.Storefront.Infrastructure;
 
-namespace Agathas.Storefront.Sales.Api.Commands
+namespace Agathas.Storefront.Application.Commands
 {
-    public class ApplyOfferToBasketCommand : IBusinessRequest
+    public class ApplyCouponToBasketCommand : IBusinessRequest
     {                
-        public ApplyOfferToBasketCommand(Guid basket_id, string voucher_id)
+        public ApplyCouponToBasketCommand(Guid basket_id, string voucher_id)
         {
             this.basket_id = basket_id;
             // check to see if voucher id is null

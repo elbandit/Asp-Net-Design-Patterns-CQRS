@@ -1,5 +1,4 @@
 <Modules>
-  <Module PersistentId="9CAD1EB3-6F4A-4261-8967-ACC17152194D" ModuleId="Agathas.Storefront.Sales" />
   <Module PersistentId="578D58FB-8380-489F-8468-138EA8C27937" ModuleId="Agathas.Storefront.Infrastructure" />
   <Module PersistentId="E57C5FED-61A0-4357-8308-ABEA91CC9E6D" ModuleId="Agathas.Storefront.Ui.Web.Views" />
   <Module PersistentId="A9A5BED6-8B6C-476A-8A50-A52B4307E6A3" ModuleId="Agathas.Storefront.Specs.Core" />
@@ -7,11 +6,9 @@
   <Module PersistentId="4CBE04B2-FFB9-4513-B278-659CC20D3943" ModuleId="Agathas.Storefront.Ui.Web" />
   <Module PersistentId="70601E59-5D3C-4FBA-A0EC-A2A420214DAF" ModuleId="Agathas.Storefront.ProductBrowsing" />
   <Module PersistentId="FD0D7BCA-6F84-478F-92EB-E187DC1780B6" ModuleId="Agathas.Storefront.Application" />
-  <Module PersistentId="DA20AC99-D153-4841-9303-5EA27DC60C91" ModuleId="Agatha.Storefront.Account" />
-  <Module PersistentId="34A2C3A9-FC81-487A-BC29-6CFA05FBB46C" ModuleId="Agathas.Storefront.Promotions" />
-  <Module PersistentId="A1D87023-185E-43F9-A92D-BC3493CAC56F" ModuleId="Agathas.Storefront.Ordering" />
   <Module PersistentId="6B8D6DFC-1688-4051-A362-0B1D314CBB37" ModuleId="Agathas.Storefront.Shopping" />
   <Module PersistentId="260C9FB5-E31C-4823-AEE9-B8B12D838F3C" ModuleId="Agathas.Storefront.Shipping" />
   <Module PersistentId="44742C7B-B220-4154-BC0D-CE82B1BE74C9" ModuleId="Agathas.Storefront.Common" />
   <Module PersistentId="BF4A1814-6F4C-4B8E-8ACE-4FEC90D59AE7" ModuleId="Agathas.Storefront.Account" />
+  <Module PersistentId="D1A8BCC7-3A89-4C11-9983-2D54E465BC9F" ModuleId="Agathas.Storefront.Domain" />
 </Modules>

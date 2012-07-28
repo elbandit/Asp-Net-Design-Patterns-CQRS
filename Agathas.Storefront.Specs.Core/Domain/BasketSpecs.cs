@@ -27,7 +27,7 @@ namespace Agathas.Storefront.Specs.Core.Domain
                 _product = new Product(1, "Hat", new Money(5m), "Hats");
             };
 
-            private Because of = () => Subject.add(_product);
+            private Because of = () => Subject.add(_product, null);
 
             private It should_raise_an_event_showing_that_the_total_cost_of_the_basket_has_increased = () =>
             {

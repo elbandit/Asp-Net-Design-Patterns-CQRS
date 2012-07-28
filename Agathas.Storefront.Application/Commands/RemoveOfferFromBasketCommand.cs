@@ -5,18 +5,18 @@ namespace Agathas.Storefront.Sales.Api.Commands
 {
     public class RemoveOfferFromBasketCommand : IBusinessRequest
     {
-        private readonly string _offer_code;
+        private readonly string _couponCode;
         private readonly Guid _basket_id;
 
-        public RemoveOfferFromBasketCommand(Guid basket_id, string offer_code)
+        public RemoveOfferFromBasketCommand(Guid basket_id, string couponCode)
         {
-            _offer_code = offer_code;
+            _couponCode = couponCode;
             _basket_id = basket_id;
         }
 
-        public string offer_code
+        public string coupon_code
         {
-            get { return _offer_code; }
+            get { return _couponCode; }
         }
 
         public Guid basket_id

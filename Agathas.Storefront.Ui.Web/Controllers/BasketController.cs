@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web.Mvc;
 using Agathas.Storefront.Application;
+using Agathas.Storefront.Application.Commands;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api;
 using Agathas.Storefront.Sales.Api.Commands;
@@ -35,7 +36,7 @@ namespace Agathas.Storefront.Ui.Web.Controllers
         [HttpPost]
         public ActionResult ApplyVoucher(string voucher_code)
         {            
-            var apply_voucher_to_basket = new ApplyOfferToBasketCommand(get_basket_id(), voucher_code);
+            var apply_voucher_to_basket = new ApplyCouponToBasketCommand(get_basket_id(), voucher_code);
 
             handle_domain_exception(() =>
                                         {
