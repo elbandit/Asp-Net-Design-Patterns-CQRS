@@ -55,7 +55,7 @@
     <Compile Include="Handlers\AddProductToBasketCommandHandler.cs" />
     <Compile Include="Handlers\ApplyCouponToBasketCommandHandler.cs" />
     <Compile Include="Handlers\CreateABasketCommandHandler.cs" />
-    <Compile Include="Handlers\RemoveOfferFromBasketCommandHandler.cs" />
+    <Compile Include="Handlers\RemoveCouponFromBasketCommandHandler.cs" />
     <Compile Include="Handlers\RemoveProductFromBasketCommandHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{70601E59-5D3C-4FBA-A0EC-A2A420214DAF}</ProjectGuid>
+    <ProjectGuid>{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Agathas.Storefront.ProductBrowsing</RootNamespace>
-    <AssemblyName>Agathas.Storefront.ProductBrowsing</AssemblyName>
+    <RootNamespace>Agathas.Storefront.Ordering</RootNamespace>
+    <AssemblyName>Agathas.Storefront.Ordering</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\MarkOrderHasFundsAquiredCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ProductDetail\" />
-    <Folder Include="Products\" />
-    <Folder Include="Search\" />
+    <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
+      <Project>{578D58FB-8380-489F-8468-138EA8C27937}</Project>
+      <Name>Agathas.Storefront.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

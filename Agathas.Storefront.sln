@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Account"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Domain", "Agathas.Storefront.Domain\Agathas.Storefront.Domain.csproj", "{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Ordering", "Agathas.Storefront.Ordering\Agathas.Storefront.Ordering.csproj", "{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +110,6 @@ Global
 		{44742C7B-B220-4154-BC0D-CE82B1BE74C9} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{BF4A1814-6F4C-4B8E-8ACE-4FEC90D59AE7} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 		{D1A8BCC7-3A89-4C11-9983-2D54E465BC9F} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
+		{9D29D9A2-11BF-4C83-BBEC-36FC72868DAB} = {580C1C19-3934-49E8-B41A-82FBBEF01475}
 	EndGlobalSection
 EndGlobal

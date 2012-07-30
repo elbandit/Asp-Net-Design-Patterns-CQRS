@@ -4,10 +4,11 @@
 	I want to be able to apply a promotional voucher to my basket 	
 
 Background:
-	Given the following offer
-		| VoucherCode | Discount | Threshold | 
-		| XXX-XXX     | 5.00     | 50.00     | 
-		| YYY-YYY     | 10.00    | 40.00     | 	
+	Given the following promotions
+		| VoucherCode | Discount | Quota     | Scope    | BasketTotalMustMeet |
+		| XXX-XXX     | 5.00     | Unlimited | HeadGear | 50                  |
+		| YYY-YYY     | 10.00    | SingleUse | Clothing | 100                 |
+		| ZZZ-ZZZ     | 10%      | SingleUse | All      | 0                   |
 	And the following products
 		|ProductId	|Price			|Name	|Category		|
 		|1			|10.50			|Hat	|HeadGear		|

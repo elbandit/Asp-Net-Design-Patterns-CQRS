@@ -4,16 +4,14 @@ using System.Linq;
 using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Shopping.Baskets.Events;
-using Agathas.Storefront.Shopping.Model.Baskets.Events;
-using Agathas.Storefront.Shopping.Model.Baskets.Products;
-using Agathas.Storefront.Shopping.Model.Coupons;
+using Agathas.Storefront.Shopping.Model.Promotions;
 
 namespace Agathas.Storefront.Shopping.Model.Baskets
 {
     public class Basket 
     {
         private IList<BasketItem> _items;
-        private string _associated_coupon;
+        private IList<Coupon> _coupons;
         private Guid _id;        
                
         private Basket()
@@ -33,43 +31,33 @@ namespace Agathas.Storefront.Shopping.Model.Baskets
             get { return _id; }
         }
         
-        public void add(Product product, IBasketPricingService basket_pricing_service)
+        public void add(ProductSnapshot product_snapshot, IBasketPricingService basket_pricing_service)
         {
             // TODO: Check for null values and invalid data
 
-            if (basket_contains_an_item_for(product))
-                get_item_for(product).increase_item_quantity_by(new NonNegativeQuantity(1));
+            if (basket_contains_an_item_for(product_snapshot))
+                get_item_for(product_snapshot).increase_item_quantity_by(new NonNegativeQuantity(1));
             else
-                _items.Add(BasketItemFactory.create_item_for(product));
+                _items.Add(BasketItemFactory.create_item_for(product_snapshot));
 
             recalculate_basket_totals(basket_pricing_service);
         }
 
-        private BasketItem get_item_for(Product product)
+        private BasketItem get_item_for(ProductSnapshot product_snapshot)
         {
-            return _items.Where(i => i.contains(product)).FirstOrDefault();
+            return _items.Where(i => i.contains(product_snapshot)).FirstOrDefault();
         }
 
-        private BasketItem get_item_for(int product_id)
+        private bool basket_contains_an_item_for(ProductSnapshot product_snapshot)
         {
-            return _items.Where(i => i.contains(product_id)).FirstOrDefault();
+            return _items.Any(i => i.contains(product_snapshot));
         }
 
-        private bool basket_contains_an_item_for(Product product)
+        public void remove_product_with_id_of(ProductSnapshot product, IBasketPricingService basket_pricing_service)
         {
-            return _items.Any(i => i.contains(product));
-        }
-
-        private bool basket_contains_an_item_for(int product_id)
-        {
-            return _items.Any(i => i.contains(product_id));
-        }
-
-        public void remove_product_with_id_of(int product_id, IBasketPricingService basket_pricing_service)
-        {
-            if (basket_contains_an_item_for(product_id))
+            if (basket_contains_an_item_for(product))
             {
-                _items.Remove(get_item_for(product_id));
+                _items.Remove(get_item_for(product));
 
                 recalculate_basket_totals(basket_pricing_service);
             }
@@ -77,23 +65,23 @@ namespace Agathas.Storefront.Shopping.Model.Baskets
 
         private void recalculate_basket_totals(IBasketPricingService basket_pricing_service)
         {
-            var total = basket_pricing_service.calculate_total_price_for(_items, _coupon_id);
+            var total = basket_pricing_service.calculate_total_price_for(_items, _coupons);
 
             DomainEvents.raise(new BasketPriceChanged(this._id, total.basket_total, total.discount));
         }
 
-        public void change_quantity_of_product(NonNegativeQuantity quantity, Product product, IBasketPricingService basket_pricing_service)
+        public void change_quantity_of_product(NonNegativeQuantity quantity, ProductSnapshot product_snapshot, IBasketPricingService basket_pricing_service)
         {
             // TODO: Check for null values and invalid data
 
-            if (basket_contains_an_item_for(product))
+            if (basket_contains_an_item_for(product_snapshot))
             {
                 if (quantity.is_zero())
                 {
-                    remove_product_with_id_of(product.id, basket_pricing_service);
+                    remove_product_with_id_of(product_snapshot, basket_pricing_service);
                 }
                 else
-                    get_item_for(product).change_item_quantity_to(quantity);
+                    get_item_for(product_snapshot).change_item_quantity_to(quantity);
 
                 recalculate_basket_totals(basket_pricing_service);
             }
@@ -104,20 +92,38 @@ namespace Agathas.Storefront.Shopping.Model.Baskets
             return _items.Any(func);
         }
 
-        public void apply(Offer coupon, IBasketPricingService basket_pricing_service)
-        {            
-            if (coupon.is_applicable_for(_items))
-            {
-                _associated_coupons.Add(coupon.id);
-                recalculate_basket_totals(basket_pricing_service);
-            }
-            else            
-                DomainEvents.raise(new CouponNotApplicableForBasketItems());            
+        //public void apply(Offer coupon, IBasketPricingService basket_pricing_service)
+        //{            
+        //    if (coupon.is_applicable_for(_items))
+        //    {
+        //        _associated_coupons.Add(coupon.id);
+        //        recalculate_basket_totals(basket_pricing_service);
+        //    }
+        //    else            
+        //        DomainEvents.raise(new CouponNotApplicableForBasketItems());            
+        //}
+
+        //public void remove_coupon(string couponCode, IBasketPricingService basketPricingService)
+        //{
+        //    recalculate_basket_totals(basketPricingService);
+        //}
+        public void apply(Promotion promotion, IBasketPricingService basket_pricing_service)
+        {
+            // double dispatch
+            var coupon = promotion.create_coupon_for(this._id); 
+
+            _coupons.Add(coupon);
+
+            recalculate_basket_totals(basket_pricing_service);
         }
 
-        public void remove_coupon(string couponCode, IBasketPricingService basketPricingService)
+        public void remove_coupon(string coupon_code, IBasketPricingService basket_pricing_service)
         {
-            recalculate_basket_totals(basketPricingService);
+            var coupon = _coupons.First(c => c.code == coupon_code);
+
+            _coupons.Remove(coupon);
+
+            recalculate_basket_totals(basket_pricing_service);
         }
     }
 }

@@ -36,11 +36,11 @@ namespace Agathas.Storefront.Ui.Web.Controllers
         [HttpPost]
         public ActionResult ApplyVoucher(string voucher_code)
         {            
-            var apply_voucher_to_basket = new ApplyCouponToBasketCommand(get_basket_id(), voucher_code);
+            var apply_coupon_to_basket_command = new ApplyCouponToBasketCommand(get_basket_id(), voucher_code);
 
             handle_domain_exception(() =>
                                         {
-                                            _application.action_request_to(apply_voucher_to_basket);
+                                            _application.action_request_to(apply_coupon_to_basket_command);
                                         });
             
             return Redirect("Index");
@@ -106,7 +106,7 @@ namespace Agathas.Storefront.Ui.Web.Controllers
         [HttpPost]
         public ActionResult RemoveVoucher(string voucher_code)
         {
-            var remove_voucher_from_basket = new RemoveOfferFromBasketCommand(get_basket_id(), voucher_code);
+            var remove_voucher_from_basket = new RemoveCouponFromBasketCommand(get_basket_id(), voucher_code);
 
             handle_domain_exception(() =>
             {

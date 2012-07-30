@@ -1,6 +1,6 @@
 ﻿using System;
 using Agathas.Storefront.Common;
-using Agathas.Storefront.Shopping.Model.Coupons;
+using Agathas.Storefront.Shopping.Model.Promotions;
 
 namespace Agathas.Storefront.Shopping.Model.Baskets
 {

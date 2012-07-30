@@ -1,13 +1,12 @@
 ﻿using Agathas.Storefront.Shopping.Baskets;
-using Agathas.Storefront.Shopping.Model.Baskets.Products;
 
 namespace Agathas.Storefront.Shopping.Model.Baskets
 {
     public static class BasketItemFactory
     {
-        public static BasketItem create_item_for(Product product)
+        public static BasketItem create_item_for(ProductSnapshot product_snapshot)
         {
-            return new BasketItem(product, new NonNegativeQuantity(1));
+            return new BasketItem(product_snapshot, new NonNegativeQuantity(1));
         }
     }
 }

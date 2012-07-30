@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using Agathas.Storefront.Common;
 using Agathas.Storefront.Shopping.Model.Baskets;
 
-namespace Agathas.Storefront.Shopping.Model.Coupons
+namespace Agathas.Storefront.Shopping.Model.Promotions
 {
-    public class Offer
+    public class Promotion
     {
         private readonly string _voucher_code;
         private readonly Money _discount;
         private readonly Money _threshold;       
 
-        public Offer(string voucher_code, Money discount, Money threshold) : this ()
+        private Promotion()
+        {
+        }
+
+        public Promotion(string voucher_code, Money discount, Money threshold)
         {
             // TODO: Check for null values and invalid data
             _voucher_code = voucher_code;
@@ -43,7 +47,12 @@ namespace Agathas.Storefront.Shopping.Model.Coupons
 
         public bool is_applicable_for(IEnumerable<BasketItem> items)
         {
-            
-        }        
+            return true;
+        }
+
+        public Coupon create_coupon_for(Guid basket_id)
+        {
+            return new Coupon();
+        }
     }
 }

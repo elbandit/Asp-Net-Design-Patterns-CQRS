@@ -4,7 +4,7 @@ using Agathas.Storefront.Infrastructure.Repositories;
 using Agathas.Storefront.Shopping.Infrastructure;
 using Agathas.Storefront.Shopping.Model.Baskets;
 using Agathas.Storefront.Shopping.Model.Baskets.Products;
-using Agathas.Storefront.Shopping.Model.Coupons;
+using Agathas.Storefront.Shopping.Model.Promotions;
 using Agathas.Storefront.Specs.Uat.Support;
 using Chap2.ShoppingBasket.Ui.Web.Controllers;
 using StructureMap;
@@ -37,7 +37,7 @@ namespace Agathas.Storefront.Specs.Uat
 
                 // Production
                 For<IBasketRepository>().Use<BasketRepository>();                
-                For<IOfferRepository>().Use<OfferRepository>();
+                For<IPromotionsRepository>().Use<PromotionsRepository>();
                 For<IProductRepository>().Use<ProductRepository>();
 
                 For<ICommandHandlerRegistry>().Use<CommandHandlerRegistry>();                

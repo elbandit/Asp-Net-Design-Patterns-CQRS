@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Agathas.Storefront.Shopping.Model.Coupons
+namespace Agathas.Storefront.Shopping.ReadModel
 {
-    public interface ICouponPolicy
+    class Product
     {
     }
 }

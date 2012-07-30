@@ -11,4 +11,5 @@
   <Module PersistentId="44742C7B-B220-4154-BC0D-CE82B1BE74C9" ModuleId="Agathas.Storefront.Common" />
   <Module PersistentId="BF4A1814-6F4C-4B8E-8ACE-4FEC90D59AE7" ModuleId="Agathas.Storefront.Account" />
   <Module PersistentId="D1A8BCC7-3A89-4C11-9983-2D54E465BC9F" ModuleId="Agathas.Storefront.Domain" />
+  <Module PersistentId="9D29D9A2-11BF-4C83-BBEC-36FC72868DAB" ModuleId="Agathas.Storefront.Ordering" />
 </Modules>

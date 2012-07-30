@@ -1,7 +1,7 @@
 ﻿using Agathas.Storefront.Common;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Shopping.Model.Baskets.Products;
-using Agathas.Storefront.Shopping.Model.Coupons;
+using Agathas.Storefront.Shopping.Model.Promotions;
 using Agathas.Storefront.Specs.Uat.Support;
 using Agathas.Storefront.Ui.Web.Controllers;
 using Agathas.Storefront.Ui.Web.Views.View;
@@ -14,7 +14,7 @@ namespace Agathas.Storefront.Specs.Uat.Steps
     [Binding]
     public class BasketStepDefinitions
     {
-        private IOfferRepository _offerRepository;        
+        private IPromotionsRepository _promotions_repository;        
         private IProductRepository _productRepository;       
         private BasketController _basket_Controller;
         private IUnitOfWork _uow;
@@ -22,7 +22,7 @@ namespace Agathas.Storefront.Specs.Uat.Steps
 
         public BasketStepDefinitions()
         {
-            _offerRepository = ObjectFactory.GetInstance<IOfferRepository>();
+            _promotions_repository = ObjectFactory.GetInstance<IPromotionsRepository>();
             _productRepository = ObjectFactory.GetInstance<IProductRepository>();
             _uow = ObjectFactory.GetInstance<IUnitOfWork>();
 
@@ -35,7 +35,7 @@ namespace Agathas.Storefront.Specs.Uat.Steps
         {
             foreach (var row in table.Rows)
             {
-                _offerRepository.add(new Offer(row["VoucherCode"], new Money(decimal.Parse(row["Discount"])), new Money(decimal.Parse(row["Threshold"]))));   
+                _promotions_repository.add(new Promotion(row["VoucherCode"], new Money(decimal.Parse(row["Discount"])), new Money(decimal.Parse(row["Threshold"]))));   
             }
 
             _uow.Commit();
@@ -46,7 +46,7 @@ namespace Agathas.Storefront.Specs.Uat.Steps
         {
             foreach (var row in table.Rows)
             {
-                _productRepository.add(new Product(int.Parse(row["ProductId"]), row["Name"], new Money(decimal.Parse(row["Price"])), row["Category"]));
+                _productRepository.add(new ProductSnapshot(int.Parse(row["ProductId"]), row["Name"], new Money(decimal.Parse(row["Price"])), row["Category"]));
             }
 
             _uow.Commit();

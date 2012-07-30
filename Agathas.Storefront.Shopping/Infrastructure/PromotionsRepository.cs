@@ -1,17 +1,17 @@
 ﻿using System;
 using Agathas.Storefront.Infrastructure.Repositories;
-using Agathas.Storefront.Shopping.Model.Coupons;
+using Agathas.Storefront.Shopping.Model.Promotions;
 
 namespace Agathas.Storefront.Shopping.Infrastructure
 {
-    public class OfferRepository : NhRepository<Offer, Guid>, IOfferRepository
+    public class PromotionsRepository : NhRepository<Promotion, Guid>, IPromotionsRepository
     {
-        public OfferRepository(ISessionCoordinator session)
+        public PromotionsRepository(ISessionCoordinator session)
             : base(session)
         {
         }
         
-        public Offer find_by(string voucher_code)
+        public Promotion find_by(string voucher_code)
         {
             return base.query_for_single(x => x.voucher_code == voucher_code);
         }

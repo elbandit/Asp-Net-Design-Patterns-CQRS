@@ -1,8 +1,5 @@
 ﻿using System;
 using Agathas.Storefront.Common;
-using Agathas.Storefront.Sales.Model.Baskets;
-using Agathas.Storefront.Shopping.Baskets;
-using Agathas.Storefront.Shopping.Model.Baskets.Products;
 
 namespace Agathas.Storefront.Shopping.Model.Baskets
 {
@@ -11,36 +8,30 @@ namespace Agathas.Storefront.Shopping.Model.Baskets
     public class BasketItem 
     {
         private Guid _id;
-        private Money _price; // should this be cost of item at time of adding to basket rather than actual product cost?
+        //private Money _price; // should this be cost of item at time of adding to basket rather than actual product cost?
         private NonNegativeQuantity _quantity;
-        private int _product_id;// Should be Product Snapshot
+        //private int _product_id;// Should be Product Snapshot
         private ProductSnapshot _product_snapshot;
 
         private BasketItem()
         {
         }
 
-        public BasketItem(Product product, NonNegativeQuantity quantity)
+        public BasketItem(ProductSnapshot product_snapshot, NonNegativeQuantity quantity)
         {
             _id = Guid.NewGuid();
-            _price = product.price;
-            _product_id = product.id;
+            _product_snapshot = product_snapshot;
             _quantity = quantity;
         }
         
         public Money line_total()
         {
-            return _price.multiple_by(_quantity.value);
+            return _product_snapshot.price.multiple_by(_quantity.value);
         }
                 
-        public bool contains(Product product)
+        public bool contains(ProductSnapshot product_snapshot)
         {
-            return _product_id == product.id;
-        }
-
-        public bool contains(int product_id)
-        {
-            return _product_id == product_id;
+            return _product_snapshot == product_snapshot;
         }
 
         public void increase_item_quantity_by(NonNegativeQuantity quantity)

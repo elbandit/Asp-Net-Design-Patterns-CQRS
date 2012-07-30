@@ -8,68 +8,68 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:NhRepository.cs" caret="587" fromTop="13" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Steps/f:BasketStepDefinitions.cs" caret="1692" fromTop="16" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/f:_ReadMe.txt" caret="0" fromTop="0" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="267" fromTop="8" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:NonNegativeQuantity.cs" caret="128" fromTop="4" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:BasketVoucher.hbm.xml" caret="142" fromTop="0" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/d:Mapping/f:Offer.hbm.xml" caret="590" fromTop="9" />
-      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:App.config" caret="1627" fromTop="19" />
-      <File id="A9A5BED6-8B6C-476A-8A50-A52B4307E6A3/d:Domain/f:BasketSpecs.cs" caret="1134" fromTop="15" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveProductFromBasketCommandHandler.cs" caret="942" fromTop="17" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Commands/f:ApplyCouponToBasketCommand.cs" caret="104" fromTop="3" />
-      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="0" fromTop="0" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Products/f:Product.cs" caret="102" fromTop="0" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:ThreadSessionStorageContainer.cs" caret="444" fromTop="4" />
-      <File id="578D58FB-8380-489F-8468-138EA8C27937/d:Repositories/f:DomainViewsRepository.cs" caret="52" fromTop="0" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Commands/f:AddProductToBasketCommand.cs" caret="0" fromTop="0" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="0" fromTop="0" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItemFactory.cs" caret="0" fromTop="0" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketPriceChanged.cs" caret="437" fromTop="13" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="954" fromTop="8" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:CouponNotApplicableForBasketItems.cs" caret="91" fromTop="2" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="0" fromTop="0" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Commands/f:RemoveOfferFromBasketCommand.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:ReadModel/f:Product.cs" caret="88" fromTop="3" />
+      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:ShippingController.cs" caret="261" fromTop="11" />
+      <File id="260C9FB5-E31C-4823-AEE9-B8B12D838F3C/d:Model/f:ShippingOption.cs" caret="0" fromTop="0" />
       <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:CreateABasketCommandHandler.cs" caret="0" fromTop="0" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:ApplyCouponToBasketCommandHandler.cs" caret="817" fromTop="7" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveOfferFromBasketCommandHandler.cs" caret="1046" fromTop="23" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:ICouponPolicy.cs" caret="159" fromTop="7" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingService.cs" caret="1106" fromTop="6" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2488" fromTop="5" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:IBasketPricingService.cs" caret="157" fromTop="6" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/d:Features/f:ApplyingVouchers.feature" caret="213" fromTop="6" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Contract/f:_readme.txt" caret="61" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketCreated.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketModified.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketPriceChanged.cs" caret="0" fromTop="0" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:ApplyCouponToBasketCommandHandler.cs" caret="1582" fromTop="22" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:IPromotionsRepository.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:PromotionNotApplicableException.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:ICouponPolicy.cs" caret="46" fromTop="0" />
+      <File id="8A0D0E13-1963-43BD-ACE7-B46B0D169E19/f:BootStrapper.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:CouponIssues.cs" caret="48" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingBreakdown.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:IBasketPricingService.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:Coupon.cs" caret="129" fromTop="4" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingService.cs" caret="618" fromTop="8" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveCouponFromBasketCommandHandler.cs" caret="961" fromTop="22" />
+      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="2094" fromTop="19" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Infrastructure/f:PromotionsRepository.cs" caret="565" fromTop="16" />
+      <File id="260C9FB5-E31C-4823-AEE9-B8B12D838F3C/d:Model/f:ShippingOptionsService.cs" caret="0" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItemFactory.cs" caret="338" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="131" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="1142" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2677" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:Promotion.cs" caret="423" fromTop="8" />
+      <File id="9D29D9A2-11BF-4C83-BBEC-36FC72868DAB/d:Commands/f:MarkOrderHasFundsAquiredCommand.cs" caret="147" fromTop="4" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="1152" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="1154" fromTop="9" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="1004" fromTop="4" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="1267" fromTop="13" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:ApplyCouponToBasketCommandHandler.cs" caret="858" fromTop="7" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:ApplyCouponToBasketCommandHandler.cs" caret="1320" fromTop="19" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketPriceChanged.cs" caret="290" fromTop="8" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:BasketPriceChanged.cs" caret="596" fromTop="17" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2316" fromTop="12" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="3330" fromTop="23" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="1412" fromTop="15" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="936" fromTop="4" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="639" fromTop="7" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="841" fromTop="14" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="1324" fromTop="15" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="3806" fromTop="17" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="356" fromTop="4" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:Offer.cs" caret="677" fromTop="14" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="3894" fromTop="19" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="3883" fromTop="19" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/d:Events/f:CouponNotApplicableForBasketItems.cs" caret="91" fromTop="2" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveOfferFromBasketCommandHandler.cs" caret="663" fromTop="13" />
-      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveOfferFromBasketCommandHandler.cs" caret="1046" fromTop="23" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="4123" fromTop="24" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingService.cs" caret="893" fromTop="19" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingService.cs" caret="1881" fromTop="22" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Coupons/f:ICouponPolicy.cs" caret="159" fromTop="7" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketPricingService.cs" caret="617" fromTop="3" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="538" fromTop="14" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2583" fromTop="7" />
-      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:IBasketPricingService.cs" caret="263" fromTop="7" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:RemoveCouponFromBasketCommandHandler.cs" caret="961" fromTop="22" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="4481" fromTop="17" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="4180" fromTop="10" />
+      <File id="4CBE04B2-FFB9-4513-B278-659CC20D3943/d:Controllers/f:BasketController.cs" caret="1615" fromTop="24" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItemFactory.cs" caret="201" fromTop="7" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItemFactory.cs" caret="42" fromTop="0" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="775" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="443" fromTop="8" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="622" fromTop="1" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="622" fromTop="8" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="622" fromTop="11" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="622" fromTop="6" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="255" fromTop="12" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:ProductSnapshot.cs" caret="131" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="47" fromTop="1" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="854" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="1395" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2460" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="195" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="933" fromTop="14" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:BasketItem.cs" caret="1142" fromTop="5" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="1538" fromTop="6" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="1964" fromTop="13" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Baskets/f:Basket.cs" caret="2816" fromTop="9" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:Promotion.cs" caret="1390" fromTop="11" />
+      <File id="6B8D6DFC-1688-4051-A362-0B1D314CBB37/d:Model/d:Promotions/f:Promotion.cs" caret="423" fromTop="8" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="417" fromTop="8" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="811" fromTop="11" />
+      <File id="9D29D9A2-11BF-4C83-BBEC-36FC72868DAB/d:Commands/f:MarkOrderHasFundsAquiredCommand.cs" caret="147" fromTop="4" />
+      <File id="FD0D7BCA-6F84-478F-92EB-E187DC1780B6/d:Handlers/f:AddProductToBasketCommandHandler.cs" caret="1198" fromTop="11" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -84,27 +84,27 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="5" />
+      <Item value="public" priority="6" />
       <Item value="bool" priority="0" />
       <Item value="List" priority="2" />
-      <Item value="IList" priority="1" />
+      <Item value="IList" priority="3" />
       <Item value="prop" priority="0" />
-      <Item value="int" priority="0" />
-      <Item value="return" priority="2" />
-      <Item value="new" priority="4" />
+      <Item value="int" priority="1" />
+      <Item value="return" priority="4" />
+      <Item value="new" priority="7" />
       <Item value="ShippingOption`0" priority="0" />
       <Item value="ctor" priority="0" />
       <Item value="IBasketRepository`0" priority="0" />
       <Item value="basketRepository" priority="0" />
       <Item value="offerRepository" priority="0" />
-      <Item value="Guid`0" priority="1" />
+      <Item value="Guid`0" priority="2" />
       <Item value="Money" priority="1" />
-      <Item value="var" priority="5" />
+      <Item value="var" priority="8" />
       <Item value="_basketRepository" priority="0" />
       <Item value="basket_id" priority="0" />
       <Item value="basket" priority="4" />
       <Item value="ParallelEnumerable`0" priority="0" />
-      <Item value="coupon" priority="3" />
+      <Item value="coupon" priority="4" />
       <Item value="else" priority="1" />
       <Item value="Model" priority="0" />
       <Item value="Coupons" priority="0" />
@@ -113,16 +113,29 @@
       <Item value="null" priority="0" />
       <Item value="this" priority="2" />
       <Item value="Products" priority="0" />
-      <Item value="BasketItem`0" priority="0" />
-      <Item value="IEnumerable" priority="0" />
+      <Item value="BasketItem`0" priority="1" />
+      <Item value="IEnumerable" priority="1" />
       <Item value="foreach" priority="0" />
       <Item value="in" priority="0" />
       <Item value="coupon_ids" priority="1" />
-      <Item value="total" priority="0" />
-      <Item value="Money`0" priority="1" />
-      <Item value="private" priority="0" />
+      <Item value="total" priority="2" />
+      <Item value="Money`0" priority="2" />
+      <Item value="private" priority="1" />
       <Item value="if" priority="0" />
-      <Item value="_items" priority="0" />
+      <Item value="_items" priority="1" />
+      <Item value="Offer`0" priority="0" />
+      <Item value="IQueryService`0" priority="0" />
+      <Item value="Coupon" priority="0" />
+      <Item value="Coupon`0" priority="0" />
+      <Item value="coupons" priority="0" />
+      <Item value="promotion" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="_coupons" priority="0" />
+      <Item value="coupon_code" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="Promotion`0" priority="0" />
+      <Item value="ProductSnapshot" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Baskets.IBasketRepository">
       <Item value="find_by`0" priority="0" />
@@ -134,7 +147,7 @@
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Baskets.Basket">
       <Item value="items_total" priority="0" />
       <Item value="has_had_vouchers_applied`0" priority="0" />
-      <Item value="_id" priority="0" />
+      <Item value="_id" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Baskets.IBasketPricingService">
       <Item value="calculate_total_price_for`0" priority="0" />
@@ -142,23 +155,35 @@
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Coupons.Offer">
       <Item value="_id" priority="0" />
       <Item value="apply_to`0" priority="0" />
-      <Item value="is_applicable_for`0" priority="0" />
+      <Item value="is_applicable_for`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Baskets.BasketPricingBreakdown">
       <Item value="basket_total" priority="1" />
       <Item value="discount" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="Add`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Select`2" priority="1" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="First`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Agathas.Storefront.Sales.Api.Commands.RemoveOfferFromBasketCommand">
       <Item value="offer_code" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="Sum`1" priority="0" />
+      <Item value="First`1" priority="1" />
+      <Item value="FirstOrDefault`1" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Baskets.BasketItem">
-      <Item value="line_total`0" priority="0" />
+      <Item value="line_total`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Agathas.Storefront.Shopping.Model.Promotions.Coupon">
+      <Item value="is_still_active`0" priority="0" />
+      <Item value="code" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Agathas.Storefront.Common.Money">
+      <Item value="add`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

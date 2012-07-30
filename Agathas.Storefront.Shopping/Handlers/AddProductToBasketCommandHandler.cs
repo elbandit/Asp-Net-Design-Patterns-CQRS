@@ -23,8 +23,6 @@ namespace Agathas.Storefront.Application.Handlers
             var basket = _basketRepository.find_by(business_request.basket_id);            
 
             // var product = _product_repository.find_by(business_request.productid);
-
-            // ask the product service (BC) for the price?
             var product = new ProductSnapshot();
 
             basket.add(product, _basketPricingService);                                    

@@ -3,20 +3,20 @@ using Agathas.Storefront.Infrastructure;
 
 namespace Agathas.Storefront.Sales.Api.Commands
 {
-    public class RemoveCouponFromBasketCommand : IBusinessRequest
+    public class AddProductToBasketCommand : IBusinessRequest
     {
-        private readonly string _couponCode;
+        private readonly int _productid;
         private readonly Guid _basket_id;
 
-        public RemoveCouponFromBasketCommand(Guid basket_id, string couponCode)
+        public AddProductToBasketCommand(int productid, Guid basket_id)
         {
-            _couponCode = couponCode;
+            _productid = productid;
             _basket_id = basket_id;
         }
 
-        public string coupon_code
+        public int productid
         {
-            get { return _couponCode; }
+            get { return _productid; }
         }
 
         public Guid basket_id

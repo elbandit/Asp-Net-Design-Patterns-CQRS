@@ -40,6 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\AddProductToBasketCommand.cs" />
+    <Compile Include="Commands\ApplyCouponToBasketCommand.cs" />
+    <Compile Include="Commands\CreateABasketCommand.cs" />
+    <Compile Include="Commands\RemoveOfferFromBasketCommand.cs" />
+    <Compile Include="Commands\RemoveProductFromBasketCommand.cs" />
+    <Compile Include="Handlers\AddProductToBasketCommandHandler.cs" />
+    <Compile Include="Handlers\ApplyCouponToBasketCommandHandler.cs" />
+    <Compile Include="Handlers\CreateABasketCommandHandler.cs" />
+    <Compile Include="Handlers\RemoveCouponFromBasketCommandHandler.cs" />
+    <Compile Include="Handlers\RemoveProductFromBasketCommandHandler.cs" />
     <Compile Include="Model\Baskets\Basket.cs" />
     <Compile Include="Model\Baskets\BasketItem.cs" />
     <Compile Include="Model\Baskets\BasketItemFactory.cs" />
@@ -53,17 +63,16 @@
     <Compile Include="Model\Baskets\IBasketRepository.cs" />
     <Compile Include="Model\Baskets\NonNegativeQuantity.cs" />
     <Compile Include="Model\Baskets\ProductSnapshot.cs" />
-    <Compile Include="Model\Baskets\Products\IProductRepository.cs" />
-    <Compile Include="Model\Baskets\Products\Product.cs" />
-    <Compile Include="Model\Coupons\CouponIssues.cs" />
-    <Compile Include="Model\Coupons\ICouponPolicy.cs" />
-    <Compile Include="Model\Coupons\IOfferRepository.cs" />
-    <Compile Include="Model\Coupons\Offer.cs" />
-    <Compile Include="Model\Coupons\OfferNotApplicableException.cs" />
+    <Compile Include="Model\Promotions\Coupon.cs" />
+    <Compile Include="Model\Promotions\CouponIssues.cs" />
+    <Compile Include="Model\Promotions\ICouponPolicy.cs" />
+    <Compile Include="Model\Promotions\IPromotionsRepository.cs" />
+    <Compile Include="Model\Promotions\Promotion.cs" />
+    <Compile Include="Model\Promotions\PromotionNotApplicableException.cs" />
     <Compile Include="Infrastructure\BasketRepository.cs" />
-    <Compile Include="Infrastructure\OfferRepository.cs" />
-    <Compile Include="Infrastructure\ProductRepository.cs" />
+    <Compile Include="Infrastructure\PromotionsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadModel\Product.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Agathas.Storefront.Common\Agathas.Storefront.Common.csproj">
@@ -89,6 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Infrastructure\Mapping\Product.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ReadModel\Mapping\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contract\_readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
