@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Consignment.cs" />
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\ShippableToService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\ShippingItem.cs" />
     <Compile Include="Model\ShippingOption.cs" />

@@ -91,22 +91,7 @@ namespace Agathas.Storefront.Shopping.Model.Baskets
         {
             return _items.Any(func);
         }
-
-        //public void apply(Offer coupon, IBasketPricingService basket_pricing_service)
-        //{            
-        //    if (coupon.is_applicable_for(_items))
-        //    {
-        //        _associated_coupons.Add(coupon.id);
-        //        recalculate_basket_totals(basket_pricing_service);
-        //    }
-        //    else            
-        //        DomainEvents.raise(new CouponNotApplicableForBasketItems());            
-        //}
-
-        //public void remove_coupon(string couponCode, IBasketPricingService basketPricingService)
-        //{
-        //    recalculate_basket_totals(basketPricingService);
-        //}
+     
         public void apply(Promotion promotion, IBasketPricingService basket_pricing_service)
         {
             // double dispatch

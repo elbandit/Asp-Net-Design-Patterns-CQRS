@@ -1,7 +1,7 @@
 ﻿using System;
 using Agathas.Storefront.Infrastructure;
 
-namespace Agathas.Storefront.Application.Commands
+namespace Agathas.Storefront.Shopping.Commands
 {
     public class ApplyCouponToBasketCommand : IBusinessRequest
     {                

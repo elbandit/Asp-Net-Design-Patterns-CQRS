@@ -1,5 +1,5 @@
 ﻿using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Api.Commands;
+using Agathas.Storefront.Shopping.Commands;
 using Agathas.Storefront.Shopping.Model.Baskets;
 using Agathas.Storefront.Shopping.Model.Baskets.Products;
 

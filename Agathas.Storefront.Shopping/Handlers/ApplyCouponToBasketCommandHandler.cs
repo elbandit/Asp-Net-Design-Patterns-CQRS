@@ -1,10 +1,9 @@
-﻿using Agathas.Storefront.Application.Commands;
-using Agathas.Storefront.Infrastructure;
-using Agathas.Storefront.Sales.Api.Commands;
+﻿using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Shopping.Commands;
 using Agathas.Storefront.Shopping.Model.Baskets;
 using Agathas.Storefront.Shopping.Model.Promotions;
 
-namespace Agathas.Storefront.Application.Handlers
+namespace Agathas.Storefront.Shopping.Handlers
 {
     public class ApplyCouponToBasketCommandHandler : ICommandHandler<ApplyCouponToBasketCommand>
     {

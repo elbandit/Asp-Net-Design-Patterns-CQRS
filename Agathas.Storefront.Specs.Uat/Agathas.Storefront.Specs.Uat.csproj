@@ -89,10 +89,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Agathas.Storefront.Application\Agathas.Storefront.Application.csproj">
-      <Project>{FD0D7BCA-6F84-478F-92EB-E187DC1780B6}</Project>
-      <Name>Agathas.Storefront.Application</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Agathas.Storefront.Common\Agathas.Storefront.Common.csproj">
       <Project>{44742C7B-B220-4154-BC0D-CE82B1BE74C9}</Project>
       <Name>Agathas.Storefront.Common</Name>

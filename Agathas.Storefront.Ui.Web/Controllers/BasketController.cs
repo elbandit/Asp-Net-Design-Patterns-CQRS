@@ -5,6 +5,7 @@ using Agathas.Storefront.Application.Commands;
 using Agathas.Storefront.Infrastructure;
 using Agathas.Storefront.Sales.Api;
 using Agathas.Storefront.Sales.Api.Commands;
+using Agathas.Storefront.Shopping.Commands;
 using Agathas.Storefront.Ui.Web.Views;
 using Agathas.Storefront.Ui.Web.Views.View;
 using Chap2.ShoppingBasket.Ui.Web.Controllers;
